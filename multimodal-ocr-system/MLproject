@@ -1,0 +1,16 @@
+name: multimodal-ocr-system
+
+conda_env: conda.yml
+
+entry_points:
+  generate_samples:
+    command: "python data/samples/generate_samples.py"
+
+  train:
+    parameters:
+      use_transformer: {type: bool, default: False}
+      confidence_threshold: {type: float, default: 0.3}
+    command: "python mlflow_setup/train_classifier.py"
+
+  serve:
+    command: "uvicorn api.serve:app --host 0.0.0.0 --port 8000"

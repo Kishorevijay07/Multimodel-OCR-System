@@ -1,0 +1,18 @@
+{
+  "label2id": {
+    "medical_prescription": 0,
+    "lab_report": 1,
+    "legal_contract": 2,
+    "affidavit": 3,
+    "invoice": 4,
+    "unknown": 5
+  },
+  "id2label": {
+    "0": "medical_prescription",
+    "1": "lab_report",
+    "2": "legal_contract",
+    "3": "affidavit",
+    "4": "invoice",
+    "5": "unknown"
+  }
+}
