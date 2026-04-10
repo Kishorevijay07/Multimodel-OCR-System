@@ -1,0 +1,13 @@
+execution_duration_ms: 4
+request_preview: '{"text": "Dosage: 500mg once daily.", "document_type": "medical_prescription"}'
+request_time: '2026-04-03T15:40:18.910Z'
+response_preview: '{"entities": [{"label": "DOSAGE", "value": "500mg", "start": 8,
+  "end": 13, "confidence": 1.0, "source": "regex"}, {"label": "DOSAGE", "value": "once
+  daily", "start": 14, "end": 24, "confidence": 1.0, "source": "regex"}], "by_type":
+  {"DOSAGE": ["500mg", "once daily"]}, "doc_type": "medical_prescription"}'
+state: OK
+trace_id: tr-78c04ed8fdd4ff21cf03f0c80effd5bd
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

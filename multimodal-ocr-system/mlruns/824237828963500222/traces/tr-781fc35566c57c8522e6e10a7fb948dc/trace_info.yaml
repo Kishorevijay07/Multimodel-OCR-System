@@ -1,0 +1,21 @@
+execution_duration_ms: 4817
+request_preview: '{"text": "MASTER SERVICE AGREEMENT\nParties: GlobalTech Inc. (\"Vendor\")
+  and LexCorp Legal Services (\"Buyer\")    Date: 15/06/2024\n\n1. SCOPE — Vendor
+  agrees to provide services as described in each Statement of Work.\n2. PAYMENT —
+  Buyer shall remit payment of USD 1,500 per engagement within 30 days.\n3. WARRANTY
+  — Vendor warrants services meet industry standards.\n4. LIABILITY — Neither party
+  shall be liable for indirect or consequential damages.\n5. ARBITRATION — Disputes
+  resolved via binding arbitration in Province of Ontario.\n6. ENTIRE AGREEMENT —
+  This document constitutes the entire agreement between parties.\n\nSigned on behalf
+  of both parties with full authority."}'
+request_time: '2026-04-04T05:38:10.326Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.3447, "all_scores":
+  {"legal_contract": 0.3447, "affidavit": 0.2089, "lab_report": 0.1864, "invoice":
+  0.1135, "medical_prescription": 0.0981, "unknown": 0.0485}, "method": "zero_shot",
+  "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-781fc35566c57c8522e6e10a7fb948dc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

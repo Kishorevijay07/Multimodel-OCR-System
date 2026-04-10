@@ -1,0 +1,22 @@
+execution_duration_ms: 8196
+request_preview: '{"context": null, "model_input": {"source": "b''\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x03
+  \\x00\\x00\\x03\\xe8\\x08\\x02\\x00\\x00\\x00\\xa9\\xa9\\r\\xe6\\x00\\x00z\\x01IDATx\\x9c\\xed\\xdd{\\\\\\x95e\\xbe\\xff\\xff\\x8b\\x83,\\x16jk5\\x89x\\xc2\\xbe[\\xa7\\x9cm(J\\xe6\\x01X\\x07L\\x90\\xa8\\x10\\x9d-\\x96\\xa2\\xa2\\x94\\xdbqkS\\xba\\xc5z\\x98Y{f\"\\xad\\xd1\\xd2\\x1c\\x1d\\x0f\\xa4XF\\x8a\\x92\\x8d\\xa9\\x91G\\xcaBt\\xdaN\\ri\\x89G\\xa2\\x10eX\\x1cD@\\xe0\\xfa=v\\xf7o\\xdf\\xdf\\xf5]kA\\xd4\\\\\\x05\\xda\\xeb\\xf9\\xd7\\xbd\\xaeu\\x1d>\\xd7\\x8d\\x8fG\\xef\\xc7u\\xdf\\x90\\x97\\x94R\\x00\\x00\\x00@\\x1do\\x85s\\x01\\x00\\x00\\x80\\x80\\x05\\x00\\x00\\xa0\\x1e\\''X\\x00\\x00\\x00\\x8a\\x11\\xb0\\x00\\x00\\x00\\x14#`\\x01\\x00\\x00(F\\xc0\\x02\\x00\\x00P\\x8c\\x80\\x05\\x00\\x00\\xa0\\x18\\x01\\x0b\\x00\\x00@1\\x02\\x16\\x00\\x00\\x80b\\x04,\\x00\\x00\\x00\\xc5\\x08X\\x00\\x00\\x00\\x8a\\x11\\xb0\\x00\\x00\\x00\\x14#`\\x01\\x00\\x00(F\\xc0\\x02\\x00\\x00P\\x8c\\x80\\...'
+request_time: '2026-04-07T07:23:58.703Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "medical_prescription", "classification_confidence": 0.8744,
+  "classification_method": "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.8744, "lab_report": 0.0391, "legal_contract":
+  0.0152, "affidavit": 0.0154, "invoice": 0.0346, "unknown": 0.0213}}, "ocr": {"engine_used":
+  "easyocr", "avg_confidence": 0.5945, "pages_processed": 1, "extracted_text": "CITYGENERRL
+  HOSPITRL MEDICRL PRESCRIPTION Fatient Name: John Da Pge: 45 Years Gender Iuala Date:
+  403/2024 Drtor: Dr: Earah William; MBBS MD Licensa Na MH-2024-78901 Rmoxicillin
+  500mg Capsula twice daily for } days Dispense; 4Capsules Ibuprolen 400mg Tabletthrice
+  daily after meals Dispense 21 Tablets Omeprazola Capsule once daily befora breakiast
+  Disre Nfz\" Capsules Diagnosis Pcuta Upper Fespiratory Tract Infection Allergies
+  Nona KNc WN Retillz 0 Bignature: Dr: Earah ...'
+state: OK
+trace_id: tr-a2eef4395fa11835b7e08556dd6b858f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

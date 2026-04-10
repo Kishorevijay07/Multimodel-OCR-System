@@ -1,0 +1,24 @@
+execution_duration_ms: 46
+request_preview: '{"context": null, "model_input": {"text": "PATHCARE DIAGNOSTICS
+  — LABORATORY REPORT\nPatient: Jane Smith    Sample: LAB-2024-421\nHbA1c: 6.1%  (Normal
+  < 5.7%)  — ELEVATED\nFasting Glucose: 108 mg/dL  (Normal < 100)  — BORDERLINE\nHemoglobin:
+  11.2 g/dL  — LOW\nWBC: 7.5 K/uL  — NORMAL"}}'
+request_time: '2026-04-03T13:51:21.692Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "lab_report", "classification_confidence": 0.25, "classification_method":
+  "keyword", "classifier_model": "", "all_type_scores": {"medical_prescription": 0.2,
+  "lab_report": 0.8, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0, "unknown":
+  0.0}}, "ocr": {"engine_used": "none", "avg_confidence": 1.0, "pages_processed":
+  0, "extracted_text": "PATHCARE DIAGNOSTICS - LABORATORY REPORT\nPatient: Jane Smith
+  Sample: LAB-2024-421\nHb A1c: 6.1% (Normal < 5.7%) - ELEVATED\nFasting Glucose:
+  108 mg/d L (Normal < 100) - BORDERLINE\nHemoglobin: 11.2 g/d L - LOW\nWBC: 7.5 K/u
+  L - NORMAL", "word_count": 40, "char_count": 230}, "entities": {"entity_count":
+  6, "entities_by_type": {"DOSAGE": ["108 mg", "11.2 g"], "LAB_VALUE": ["A1c: 6.1",
+  "Glucose: 108", "Hemoglobin: 11.2", "WBC: 7.5"]}, "entities_list": [{"label": "DOSAGE",
+  "value": "108 mg", "confidence": 1.0, "source": "regex"}, {"label": "DOSAGE", ...'
+state: OK
+trace_id: tr-64960683725fb4b3654cbe66867fcc2b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

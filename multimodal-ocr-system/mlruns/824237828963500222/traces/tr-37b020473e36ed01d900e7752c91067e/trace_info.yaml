@@ -1,0 +1,15 @@
+execution_duration_ms: 31
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Sarah Williams\nDate:
+  05/01/2025\nPrescribed by: Dr. Emily Stone\n\nRx:\n1. Metformin 250mg — thrice daily
+  for 5 days\n2. Omeprazole 500mg — thrice daily for 5 days\n\nDiagnosis: Acute upper
+  respiratory infection\nRefills: 1\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:28:20.425Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.5, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-37b020473e36ed01d900e7752c91067e
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,16 @@
+creation_timestamp: 1775238772461
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1775238772461
+model_id: m-07eacc1971554225b3393b8e8149abad
+name: DocumentBERTClassifier
+run_id: b9fe2ee32ccf43d08ea1e1cc9764ab24
+run_link: ''
+source: models:/m-07eacc1971554225b3393b8e8149abad
+status: READY
+status_message: null
+storage_location: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-07eacc1971554225b3393b8e8149abad/artifacts
+user_id: null
+version: 1
+workspace: default

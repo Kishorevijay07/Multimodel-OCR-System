@@ -1,0 +1,18 @@
+execution_duration_ms: 8053
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-31603    Invoice Date:
+  10/12/2024\nFrom: GlobalTech Inc.\nBill To: LexCorp Legal Services\n\nITEMS:\n  Legal
+  Advisory                      USD 1,388\n  Medical Equipment                   USD
+  1,355\n\n                               Subtotal:  USD 17,761\n                               Tax
+  (10%): USD 1,776\n                               TOTAL DUE: USD 19,537\n\nPayment
+  Due Date: 30 days from invoice date.\nBank Transfer / Cheque payable to GlobalTech
+  Inc.."}'
+request_time: '2026-04-04T05:37:10.190Z'
+response_preview: '{"label": "invoice", "confidence": 0.879, "all_scores": {"invoice":
+  0.879, "legal_contract": 0.0419, "affidavit": 0.0329, "lab_report": 0.029, "medical_prescription":
+  0.0133, "unknown": 0.0039}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-8b2a04c2066f71014fa89e3cf56b8d4c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

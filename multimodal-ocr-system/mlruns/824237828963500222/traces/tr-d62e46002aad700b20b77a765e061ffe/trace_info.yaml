@@ -1,0 +1,20 @@
+execution_duration_ms: 4089
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 22/09/2024\nBetween:
+  XYZ Technology Solutions Pvt. Ltd. and ABC Retail Corporation\n\nWhereas both parties
+  wish to explore a potential business relationship,\neach party (the \"Disclosing
+  Party\") may share proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall
+  not disclose Confidential Information to third parties.\n- Obligations survive termination
+  for a period of 3 years.\n- Breach shall entitle Disclosing Party to seek injunctive
+  relief.\n\nJURISDICTION & GOVERNING LAW:\nThis Agreement is governed by the laws
+  of State of California.\n\nAGREED AND EXECUTED on 22/09/2024."}'
+request_time: '2026-04-04T05:38:41.053Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.2996, "all_scores":
+  {"legal_contract": 0.2996, "affidavit": 0.2956, "invoice": 0.1474, "lab_report":
+  0.1428, "medical_prescription": 0.083, "unknown": 0.0316}, "method": "zero_shot",
+  "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-d62e46002aad700b20b77a765e061ffe
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

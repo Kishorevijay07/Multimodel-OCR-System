@@ -1,0 +1,17 @@
+execution_duration_ms: 7842
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: Sarah
+  Williams    Sample ID: LAB-8300\nReferred By: Dr. Emily Stone    Date: 05/01/2025\n\nTEST
+  RESULTS:\n  Hemoglobin                6.8 g/dL       NORMAL\n  HbA1c                     5.0
+  mg/dL      NORMAL\n  Fasting Glucose           10.5 K/uL       LOW\n  WBC                       13.4
+  %          NORMAL\n\nLaboratory Director: Dr. Certified Pathologist\nReport verified
+  and digitally signed."}'
+request_time: '2026-04-04T05:31:49.587Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7349, "all_scores": {"lab_report":
+  0.7349, "affidavit": 0.1068, "legal_contract": 0.0642, "medical_prescription": 0.0461,
+  "invoice": 0.034, "unknown": 0.0139}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-77ca98e2bcc46adaeff806305411b799
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

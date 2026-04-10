@@ -1,0 +1,11 @@
+execution_duration_ms: 16
+request_preview: '{"context": "<mlflow.pyfunc.model.PythonModelContext object at 0x00000179D4AE90D0>",
+  "model_input": null}'
+request_time: '2026-03-03T09:52:30.584Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-e3247382b4ec6dba597d85a2875bcf52
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

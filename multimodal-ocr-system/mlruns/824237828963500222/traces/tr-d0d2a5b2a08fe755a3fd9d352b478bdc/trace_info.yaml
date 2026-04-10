@@ -1,0 +1,18 @@
+execution_duration_ms: 4475
+request_preview: '{"text": "AFFIDAVIT\nI, John Doe, do hereby solemnly affirm and
+  declare as follows:\n\n1. I am a resident of London and am competent to make this
+  affidavit.\n2. The facts stated herein are true to the best of my knowledge and
+  belief.\n3. I have not suppressed any material fact that is within my knowledge.\n4.
+  This affidavit is made for the purpose of legal proceedings.\n\nDEPONENT: John Doe\nSworn
+  and subscribed before me on this 05/01/2025.\nNotary Public / Commissioner of Oaths.\nSeal
+  and Signature of Notary."}'
+request_time: '2026-04-04T05:34:08.035Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8546, "all_scores": {"affidavit":
+  0.8546, "legal_contract": 0.0364, "lab_report": 0.0356, "unknown": 0.0319, "medical_prescription":
+  0.0271, "invoice": 0.0144}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-d0d2a5b2a08fe755a3fd9d352b478bdc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

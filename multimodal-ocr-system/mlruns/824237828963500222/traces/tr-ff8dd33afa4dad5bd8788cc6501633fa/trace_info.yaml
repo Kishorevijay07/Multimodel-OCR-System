@@ -1,0 +1,16 @@
+execution_duration_ms: 2924
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: David Lee\nDate: 28/02/2025\nPrescribed
+  by: Dr. P. Mehta\n\nRx:\n1. Paracetamol 40mg — once daily for 7 days\n2. Omeprazole
+  40mg — every 8 hours for 7 days\n\nDiagnosis: Acute upper respiratory infection\nRefills:
+  1\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:32:45.475Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8724, "all_scores":
+  {"medical_prescription": 0.8724, "affidavit": 0.056, "invoice": 0.0274, "lab_report":
+  0.0238, "legal_contract": 0.0177, "unknown": 0.0027}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-ff8dd33afa4dad5bd8788cc6501633fa
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

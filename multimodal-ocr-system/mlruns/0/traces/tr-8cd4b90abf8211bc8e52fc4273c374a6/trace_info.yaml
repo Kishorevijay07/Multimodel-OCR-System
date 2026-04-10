@@ -1,0 +1,12 @@
+execution_duration_ms: 8
+request_preview: '{"text": "Date: 14/03/2024.", "document_type": "medical_prescription"}'
+request_time: '2026-04-03T13:53:32.780Z'
+response_preview: '{"entities": [{"label": "DATE", "value": "14/03/2024", "start":
+  6, "end": 16, "confidence": 1.0, "source": "regex"}], "by_type": {"DATE": ["14/03/2024"]},
+  "doc_type": "medical_prescription"}'
+state: OK
+trace_id: tr-8cd4b90abf8211bc8e52fc4273c374a6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

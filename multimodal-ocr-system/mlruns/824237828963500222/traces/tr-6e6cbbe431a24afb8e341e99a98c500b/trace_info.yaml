@@ -1,0 +1,17 @@
+execution_duration_ms: 3018
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Jane Smith   Consulting Physician: Dr. Sarah Williams\nDate of Issue: 05/01/2025\n\nMedications
+  Prescribed:\n- Lisinopril 10mg: Take thrice daily with food\n- Metoprolol 250mg:
+  Take once daily at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full
+  course.\nValid for 30 days. Refills allowed: 1"}'
+request_time: '2026-04-04T05:36:50.926Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.7118, "all_scores":
+  {"medical_prescription": 0.7118, "affidavit": 0.1047, "invoice": 0.0672, "lab_report":
+  0.0545, "legal_contract": 0.0507, "unknown": 0.0112}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-6e6cbbe431a24afb8e341e99a98c500b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

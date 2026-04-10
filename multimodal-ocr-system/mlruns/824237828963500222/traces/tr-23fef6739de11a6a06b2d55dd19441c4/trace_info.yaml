@@ -1,0 +1,21 @@
+execution_duration_ms: 4365
+request_preview: '{"text": "SERVICE AGREEMENT\nThis Agreement is entered into on 28/02/2025
+  between:\nOmega Finance Group (hereinafter \"Service Provider\")\nAND\nGlobalTech
+  Inc. (hereinafter \"Client\")\n\nWHEREAS the parties desire to set forth the terms
+  of engagement,\n\n1. SERVICES: Service Provider shall deliver software consulting
+  services.\n2. PAYMENT: Client shall pay USD 12,500 per month within 30 days of invoice.\n3.
+  CONFIDENTIALITY: Both parties shall maintain strict confidentiality.\n4. TERMINATION:
+  Either party may terminate with 30 days written notice.\n5. JURISDICTION: Governed
+  by laws of Province of Ontario.\n6. INDEMNIFICATION: Each party shall indemnify
+  the other against third-party claims.\n\nIN WITNESS WHEREOF the parties execute
+  this Agreement on the date above."}'
+request_time: '2026-04-04T05:33:07.641Z'
+response_preview: '{"label": "invoice", "confidence": 0.2499, "all_scores": {"invoice":
+  0.2499, "legal_contract": 0.2461, "affidavit": 0.2272, "lab_report": 0.1188, "medical_prescription":
+  0.1185, "unknown": 0.0395}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-23fef6739de11a6a06b2d55dd19441c4
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

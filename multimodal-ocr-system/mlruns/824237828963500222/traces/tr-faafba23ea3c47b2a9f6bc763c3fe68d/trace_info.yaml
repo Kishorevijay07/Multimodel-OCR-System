@@ -1,0 +1,18 @@
+execution_duration_ms: 8088
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 22/09/2024    Accession:
+  LAB-9376\nPatient Name: John Doe    Physician: Dr. James Carter\n\nComplete Metabolic
+  Panel & CBC:\n  RBC                       4.9 M/uL       HIGH\n  WBC                       13.7
+  K/uL       LOW\n  Hemoglobin                6.1 M/uL       NORMAL\n  Platelet                  9.8
+  mg/dL      LOW\n  Cholesterol               11.8 mmol/L     HIGH\n\nNote: Values
+  outside reference range are flagged.\nInterpretation should be done in clinical
+  context."}'
+request_time: '2026-04-04T05:32:12.041Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7299, "all_scores": {"lab_report":
+  0.7299, "unknown": 0.0712, "invoice": 0.0549, "affidavit": 0.0522, "medical_prescription":
+  0.0495, "legal_contract": 0.0423}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-faafba23ea3c47b2a9f6bc763c3fe68d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

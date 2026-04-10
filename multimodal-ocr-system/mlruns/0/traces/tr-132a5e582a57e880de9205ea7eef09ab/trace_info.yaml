@@ -1,0 +1,13 @@
+execution_duration_ms: 7
+request_preview: '{"text": "Signed on 14/03/2024 in California.", "document_type":
+  "legal_contract"}'
+request_time: '2026-04-03T13:53:55.442Z'
+response_preview: '{"entities": [{"label": "DATE", "value": "14/03/2024", "start":
+  10, "end": 20, "confidence": 1.0, "source": "regex"}], "by_type": {"DATE": ["14/03/2024"]},
+  "doc_type": "legal_contract"}'
+state: OK
+trace_id: tr-132a5e582a57e880de9205ea7eef09ab
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

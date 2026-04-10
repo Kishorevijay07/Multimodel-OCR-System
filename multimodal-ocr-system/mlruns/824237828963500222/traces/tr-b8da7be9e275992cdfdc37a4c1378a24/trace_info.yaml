@@ -1,0 +1,16 @@
+execution_duration_ms: 30
+request_preview: '{"text": "LAB REPORT — LAB-2161\nPatient: Sarah Williams\nOrdering
+  Provider: Dr. A. Kumar    Collection Date: 05/01/2025\n\n  Platelet                  4.0
+  mmol/L     NORMAL\n  Bilirubin                 7.3 mmol/L     CRITICAL\n  Creatinine                12.9
+  mmol/L     NORMAL\n\nSpecimen: Venous blood collected under sterile conditions.\nFindings
+  discussed with ordering physician."}'
+request_time: '2026-04-04T05:28:20.369Z'
+response_preview: '{"label": "lab_report", "confidence": 0.1875, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 1.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-b8da7be9e275992cdfdc37a4c1378a24
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

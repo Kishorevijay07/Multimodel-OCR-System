@@ -1,0 +1,18 @@
+execution_duration_ms: 7804
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 01/03/2024    Accession:
+  LAB-6674\nPatient Name: Michael Chen    Physician: Dr. James Carter\n\nComplete
+  Metabolic Panel & CBC:\n  HbA1c                     12.9 M/uL       HIGH\n  Bilirubin                 4.6
+  mg/dL      LOW\n  WBC                       5.9 mmol/L     LOW\n  Creatinine                10.7
+  g/dL       NORMAL\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:36:18.551Z'
+response_preview: '{"label": "lab_report", "confidence": 0.6966, "all_scores": {"lab_report":
+  0.6966, "affidavit": 0.0772, "medical_prescription": 0.0678, "invoice": 0.0542,
+  "unknown": 0.0534, "legal_contract": 0.0508}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-21a72df4573f431c009acc1212eb5c9d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

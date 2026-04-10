@@ -1,0 +1,17 @@
+execution_duration_ms: 3141
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Anita Sharma   Consulting Physician: Dr. James Carter\nDate of Issue: 22/09/2024\n\nMedications
+  Prescribed:\n- Paracetamol 40mg: Take as needed with food\n- Metformin 40mg: Take
+  as needed at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full course.\nValid
+  for 30 days. Refills allowed: 0"}'
+request_time: '2026-04-04T05:34:48.744Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.7088, "all_scores":
+  {"medical_prescription": 0.7088, "affidavit": 0.1055, "invoice": 0.0658, "lab_report":
+  0.0603, "legal_contract": 0.0493, "unknown": 0.0103}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-568fec6fbb6459f83e836abed602b473
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

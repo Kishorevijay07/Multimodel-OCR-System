@@ -1,0 +1,13 @@
+execution_duration_ms: 1817
+request_preview: '{"text": "Thank you for your message. We will get back to you within
+  2 business days."}'
+request_time: '2026-04-04T05:30:48.149Z'
+response_preview: '{"label": "lab_report", "confidence": 0.2262, "all_scores": {"lab_report":
+  0.2262, "affidavit": 0.2137, "medical_prescription": 0.1654, "legal_contract": 0.1448,
+  "unknown": 0.1352, "invoice": 0.1147}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-891d75c7fd19faef2d8c5d1e58621084
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

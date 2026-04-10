@@ -1,0 +1,24 @@
+execution_duration_ms: 178
+request_preview: '{"context": null, "model_input": {"text": "MEDICAL PRESCRIPTION\nPatient:
+  John Doe, 45M\nDate: 14/03/2024\nRx:\n1. Amoxicillin 500mg — twice daily for 7 days\n2.
+  Ibuprofen 400mg — thrice daily after meals\nPrescribed by: Dr. Sarah Williams\nRefills:
+  0"}}'
+request_time: '2026-04-04T06:07:28.978Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "medical_prescription", "classification_confidence": 0.375,
+  "classification_method": "keyword", "classifier_model": "", "all_type_scores": {"medical_prescription":
+  1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}}, "ocr": {"engine_used": "none", "avg_confidence": 1.0, "pages_processed":
+  0, "extracted_text": "MEDICAL PRESCRIPTION\nPatient: John Doe, 45M\nDate: 14/03/2024\nRx:\n1.
+  Amoxicillin 500mg - twice daily for 7 days\n2. Ibuprofen 400mg - thrice daily after
+  meals\nPrescribed by: Dr. Sarah Williams\nRefills: 0", "word_count": 33, "char_count":
+  201}, "entities": {"entity_count": 8, "entities_by_type": {"DATE": ["14/03/2024"],
+  "DOSAGE": ["500mg", "400mg", "twice daily", "thrice daily"], "DRUG": ["Amoxicillin",
+  "Ibuprofen"], "DOCTOR": ["Dr. Sarah Williams"]}, "entities_list": [{"label": "DATE",
+  "value": "14/03/2024", "confidence": 1.0, "sou...'
+state: OK
+trace_id: tr-b1c207241c215edf5b3b616e61378a87
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

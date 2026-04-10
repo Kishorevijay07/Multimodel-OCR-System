@@ -1,0 +1,18 @@
+execution_duration_ms: 7594
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-52157    Invoice Date:
+  28/02/2025\nFrom: XYZ Technology Solutions Pvt. Ltd.\nBill To: ABC Retail Corporation\n\nITEMS:\n  Legal
+  Advisory                      USD 1,325\n  Medical Equipment                   USD
+  4,029\n\n                               Subtotal:  USD 23,360\n                               Tax
+  (18%): USD 4,205\n                               TOTAL DUE: USD 27,565\n\nPayment
+  Due Date: 30 days from invoice date.\nBank Transfer / Cheque payable to XYZ Technology
+  Solutions Pvt. Ltd.."}'
+request_time: '2026-04-04T05:34:15.862Z'
+response_preview: '{"label": "invoice", "confidence": 0.8245, "all_scores": {"invoice":
+  0.8245, "legal_contract": 0.0664, "affidavit": 0.0452, "lab_report": 0.0386, "medical_prescription":
+  0.0208, "unknown": 0.0045}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-9154b6f31124d450839a5e3137f2a5bc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

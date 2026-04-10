@@ -1,0 +1,13 @@
+execution_duration_ms: 9
+request_preview: '{"text": "This agreement is between the parties hereinafter. Governed
+  by jurisdiction of California. Indemnification applies."}'
+request_time: '2026-04-03T13:53:32.468Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.4, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 1.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-73e7f042516c3b0a53853918bc4015fa
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

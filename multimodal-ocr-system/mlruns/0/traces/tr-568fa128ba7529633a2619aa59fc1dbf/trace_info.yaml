@@ -1,0 +1,17 @@
+execution_duration_ms: 67
+request_preview: '{"context": null, "model_input": {"source": "b''%PDF-1.5\\n%\\xbf\\xf7\\xa2\\xfe\\n7
+  0 obj\\n<< /Linearized 1 /L 188667 /H [ 1200 174 ] /O 11 /E 147089 /N 2 /T 188359
+  >>\\nendobj\\n                                                                                                            \\n8
+  0 obj\\n<< /Type /XRef /Length 81 /Filter /FlateDecode /DecodeParms << /Columns
+  5 /Predictor 12 >> /W [ 1 3 1 ] /Index [ 7 78 ] /Info 5 0 R /Root 9 0 R /Size 85
+  /Prev 188360                /ID [<0f2e69ac4834b92391578ad25b9f30de><cb88b7a0cdf5bec64d74e46da08f3c6a>]
+  >>\\nstream\\nx\\x9ccbd`\\xe0g`b``8\\t\"Yb\\xc1\\xecj\\x10\\xc9\\xb8\\x0e\\xcc\\xee\\x07\\x91\\xfc\\xb6
+  RJ\\x1fD2\\x1d\\x07\\xcb\\xee\\x05\\xb3o\\x00IF&]\\x10\\xf9U\\r$\\xc2\\xbc\\tl\\xce\\x160\\xfb\\x01\\x03\\x13\\xe3\\xbf3\\''\\xc0\\xe6\\x00\\x95\\x8d\\x92t!\\x01\\xcc\\xb8\\x0c\\xf2\\nendstream\\nendobj\\n                                                                                                                                    ...'
+request_time: '2026-04-07T07:12:26.697Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-568fa128ba7529633a2619aa59fc1dbf
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,23 @@
+execution_duration_ms: 14720
+request_preview: '{"context": null, "model_input": {"source": "b''\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x03W\\x00\\x00\\x08\\x8c\\x08\\x06\\x00\\x00\\x00\\xa3<\\x1d\\xe6\\x00\\x00\\x10\\x00IDATx\\x01\\xec\\x9d\\x05\\x80UE\\x1f\\xc5\\xcfl\\xd3K\\xa7\\x94\\n\\xa2\\x02\\n\\x02*m\\x81E\\x89\\x88t\\xd8b}\\x06\\x16m
+  *\\x82\\x82` \\xa5\"\\x88\\x84\\n\\x02\\x12K\\xb7\\xa4tww\\xb3\\xec~\\xf7\\xcc\\xf2\\xd6eY`a\\xdf\\xee\\xab\\xb30\\xef\\xd6\\xc4\\x7f~s\\xf7\\xed\\x9c\\xfb\\x9f\\x99\\x1b\\x14\\xab\\x1f\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x81\\x14\\x13\\x08\\x82~D\\xc0\\xab\\t\\xc88\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\xf0\\r\\x02\\x12W\\xbe\\xd1N\\xb2R\\x04D\\xc0[\\t\\xc8.\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x118O@\\xe2\\xea<\\x08mD@\\x04D@\\x04D\\xc0\\x1f\\t\\xa8N\"
+  \\x02\" \\x02iG@\\xe2*\\xedX\\xab$\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x01\\x11\\x10\\x81\\x0b\\t\\xe8H\\x04\\xfc\\x8a\\x80\\xc4\\x95_5\...'
+request_time: '2026-04-07T07:17:06.809Z'
+response_preview: '{"status": "success", "requires_human_review": true, "review_reasons":
+  ["low_classification_confidence"], "document": {"type": "lab_report", "classification_confidence":
+  0.2272, "classification_method": "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.0887, "lab_report": 0.2272, "legal_contract":
+  0.1836, "affidavit": 0.1122, "invoice": 0.1821, "unknown": 0.2062}}, "ocr": {"engine_used":
+  "easyocr", "avg_confidence": 0.8595, "pages_processed": 1, "extracted_text": "B
+  DOCUMENT INPUT Scanned PDF Images Documents Stage 5 OPENCV PIPELINE Noise Removal
+  Skew Binarization Output Correction TAAINING PIPELINE re ST API Tff Hugging Face
+  Synthetic Data Hyperparamete Trainer Generator Search Easy OCR (Primary) regisler
+  best low confidgnco model fallback MLFLOW PLATFORM Tracing Experiment Tracking Tesseract
+  Model Registry (Fallback) deploy Text Normalizer CLASSIHICATION Tie R Fine-tuned
+  BERT {allback NER EXTRACTION BART E...'
+state: OK
+trace_id: tr-6ed0bee72a190fb8ee436b20c760c9b0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

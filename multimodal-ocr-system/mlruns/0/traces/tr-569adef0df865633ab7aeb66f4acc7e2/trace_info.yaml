@@ -1,0 +1,14 @@
+execution_duration_ms: 12
+request_preview: '{"text": "Rx\nPt: David Lee\nRx Date: 10/12/2024\nDr: Dr. A. Kumar\n\nOmeprazole
+  10mg — Sig: every 8 hours x 14d — Qty: 28\nAspirin 40mg — Sig: once daily x 14d
+  — Qty: 14\n\nNo substitution. Patient counselled. Refills: 2."}'
+request_time: '2026-04-03T13:53:55.197Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.3125, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-569adef0df865633ab7aeb66f4acc7e2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

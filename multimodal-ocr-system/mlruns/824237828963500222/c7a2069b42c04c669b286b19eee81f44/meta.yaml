@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/c7a2069b42c04c669b286b19eee81f44/artifacts
+end_time: 1775234504533
+entry_point_name: ''
+experiment_id: '824237828963500222'
+lifecycle_stage: active
+run_id: c7a2069b42c04c669b286b19eee81f44
+run_name: bert-bert-base-uncased-finetune
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775234406691
+status: 4
+tags: []
+user_id: KISHORE SELVARAJ

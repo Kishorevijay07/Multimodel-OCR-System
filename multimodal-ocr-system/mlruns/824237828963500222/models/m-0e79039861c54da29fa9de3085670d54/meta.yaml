@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-0e79039861c54da29fa9de3085670d54/artifacts
+creation_timestamp: 1772526573575
+experiment_id: '824237828963500222'
+last_updated_timestamp: 1772526576329
+model_id: m-0e79039861c54da29fa9de3085670d54
+model_type: null
+name: ocr_pipeline
+source_run_id: 968aa85a99a6433a8ad7c571b6d048ae
+status: 2
+status_message: null

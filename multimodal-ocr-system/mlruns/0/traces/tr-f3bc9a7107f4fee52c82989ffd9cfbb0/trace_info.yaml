@@ -1,0 +1,12 @@
+execution_duration_ms: 4
+request_preview: '{"text": "Take tablet bid for 7 days.", "document_type": "medical_prescription"}'
+request_time: '2026-04-03T13:53:32.758Z'
+response_preview: '{"entities": [{"label": "DOSAGE", "value": "bid", "start": 12,
+  "end": 15, "confidence": 1.0, "source": "regex"}], "by_type": {"DOSAGE": ["bid"]},
+  "doc_type": "medical_prescription"}'
+state: OK
+trace_id: tr-f3bc9a7107f4fee52c82989ffd9cfbb0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

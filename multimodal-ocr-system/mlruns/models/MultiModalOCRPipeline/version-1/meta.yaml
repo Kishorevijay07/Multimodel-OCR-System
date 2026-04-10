@@ -1,0 +1,16 @@
+creation_timestamp: 1772526576359
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1772526576359
+model_id: m-0e79039861c54da29fa9de3085670d54
+name: MultiModalOCRPipeline
+run_id: 968aa85a99a6433a8ad7c571b6d048ae
+run_link: null
+source: models:/m-0e79039861c54da29fa9de3085670d54
+status: READY
+status_message: null
+storage_location: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-0e79039861c54da29fa9de3085670d54/artifacts
+user_id: null
+version: 1
+workspace: default

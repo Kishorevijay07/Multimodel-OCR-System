@@ -1,0 +1,13 @@
+execution_duration_ms: 5
+request_preview: '{"text": "Tax Invoice INV-12345. Bill To: ABC Corp. Total Amount:
+  USD 5,000. Payment due within 30 days. GST applied."}'
+request_time: '2026-04-03T13:53:32.533Z'
+response_preview: '{"label": "invoice", "confidence": 0.5, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-1b0c62eb27c8fc6c1be5a4c395af6d0c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

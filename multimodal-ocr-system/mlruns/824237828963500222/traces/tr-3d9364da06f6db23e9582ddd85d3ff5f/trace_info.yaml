@@ -1,0 +1,18 @@
+execution_duration_ms: 3783
+request_preview: '{"text": "AFFIDAVIT\nI, Priya Patel, do hereby solemnly affirm and
+  declare as follows:\n\n1. I am a resident of New York and am competent to make this
+  affidavit.\n2. The facts stated herein are true to the best of my knowledge and
+  belief.\n3. I have not suppressed any material fact that is within my knowledge.\n4.
+  This affidavit is made for the purpose of legal proceedings.\n\nDEPONENT: Priya
+  Patel\nSworn and subscribed before me on this 22/09/2024.\nNotary Public / Commissioner
+  of Oaths.\nSeal and Signature of Notary."}'
+request_time: '2026-04-04T05:33:26.648Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8402, "all_scores": {"affidavit":
+  0.8402, "lab_report": 0.042, "unknown": 0.0351, "legal_contract": 0.0344, "medical_prescription":
+  0.033, "invoice": 0.0154}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-3d9364da06f6db23e9582ddd85d3ff5f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

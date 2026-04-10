@@ -1,0 +1,15 @@
+execution_duration_ms: 7
+request_preview: '{"text": "Governed by the laws of the State of California.", "document_type":
+  "legal_contract"}'
+request_time: '2026-04-03T13:53:32.833Z'
+response_preview: '{"entities": [{"label": "JURISDICTION", "value": "State of California",
+  "start": 28, "end": 47, "confidence": 1.0, "source": "regex"}, {"label": "JURISDICTION",
+  "value": "Governed by the laws of", "start": 0, "end": 23, "confidence": 1.0, "source":
+  "regex"}], "by_type": {"JURISDICTION": ["State of California", "Governed by the
+  laws of"]}, "doc_type": "legal_contract"}'
+state: OK
+trace_id: tr-c7ecfe71d49347fc0fc98d2e030f9be9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

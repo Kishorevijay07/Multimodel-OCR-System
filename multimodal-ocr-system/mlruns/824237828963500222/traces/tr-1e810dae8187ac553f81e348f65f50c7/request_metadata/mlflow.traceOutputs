@@ -1,0 +1,1 @@
+{"label": "lab_report", "confidence": 0.375, "all_scores": {"medical_prescription": 0.1429, "lab_report": 0.8571, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}

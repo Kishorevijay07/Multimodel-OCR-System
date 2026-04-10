@@ -1,0 +1,20 @@
+execution_duration_ms: 4900
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 28/02/2025\nBetween:
+  Sunrise Pharmaceuticals and XYZ Technology Solutions Pvt. Ltd.\n\nWhereas both parties
+  wish to explore a potential business relationship,\neach party (the \"Disclosing
+  Party\") may share proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall
+  not disclose Confidential Information to third parties.\n- Obligations survive termination
+  for a period of 3 years.\n- Breach shall entitle Disclosing Party to seek injunctive
+  relief.\n\nJURISDICTION & GOVERNING LAW:\nThis Agreement is governed by the laws
+  of State of New York.\n\nAGREED AND EXECUTED on 28/02/2025."}'
+request_time: '2026-04-04T05:34:23.506Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.3139, "all_scores":
+  {"legal_contract": 0.3139, "affidavit": 0.2888, "invoice": 0.1399, "lab_report":
+  0.1183, "medical_prescription": 0.1066, "unknown": 0.0326}, "method": "zero_shot",
+  "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-1081ec7f4b086877ca0da3dd1ed9c53b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

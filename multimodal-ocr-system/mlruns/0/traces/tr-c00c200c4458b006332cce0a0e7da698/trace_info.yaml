@@ -1,0 +1,10 @@
+execution_duration_ms: 5
+request_preview: '{"text": "some text", "document_type": "unknown"}'
+request_time: '2026-04-03T15:40:37.724Z'
+response_preview: '{"entities": [], "by_type": {}, "doc_type": "unknown"}'
+state: OK
+trace_id: tr-c00c200c4458b006332cce0a0e7da698
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

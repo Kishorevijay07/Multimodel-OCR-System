@@ -1,0 +1,16 @@
+execution_duration_ms: 2869
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Jane Smith\nDate:
+  15/06/2024\nPrescribed by: Dr. James Carter\n\nRx:\n1. Omeprazole 40mg — thrice
+  daily for 7 days\n2. Amoxicillin 40mg — every 12 hours for 7 days\n\nDiagnosis:
+  Acute upper respiratory infection\nRefills: 2\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:37:27.808Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8866, "all_scores":
+  {"medical_prescription": 0.8866, "affidavit": 0.0538, "lab_report": 0.0209, "invoice":
+  0.0199, "legal_contract": 0.0165, "unknown": 0.0022}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-884fd176eaff41f9eb2e3174bb0ec6a5
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

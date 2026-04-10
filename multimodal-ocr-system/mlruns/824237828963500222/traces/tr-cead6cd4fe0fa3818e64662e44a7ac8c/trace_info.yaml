@@ -1,0 +1,17 @@
+execution_duration_ms: 24
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-41462    Invoice Date:
+  01/03/2024\nFrom: XYZ Technology Solutions Pvt. Ltd.\nBill To: ABC Retail Corporation\n\nITEMS:\n  Consulting
+  Services                 USD 2,841\n  Office Supplies                     USD 4,537\n\n                               Subtotal:  USD
+  8,762\n                               Tax (5%): USD 438\n                               TOTAL
+  DUE: USD 9,200\n\nPayment Due Date: 30 days from invoice date.\nBank Transfer /
+  Cheque payable to XYZ Technology Solutions Pvt. Ltd.."}'
+request_time: '2026-04-04T05:28:35.578Z'
+response_preview: '{"label": "invoice", "confidence": 0.6667, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-cead6cd4fe0fa3818e64662e44a7ac8c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

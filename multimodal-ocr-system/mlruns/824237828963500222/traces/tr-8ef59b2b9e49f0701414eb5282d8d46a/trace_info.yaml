@@ -1,0 +1,16 @@
+execution_duration_ms: 3136
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Priya Patel\nDate:
+  28/02/2025\nPrescribed by: Dr. P. Mehta\n\nRx:\n1. Atorvastatin 500mg — twice daily
+  for 7 days\n2. Amlodipine 100mg — thrice daily for 7 days\n\nDiagnosis: Acute upper
+  respiratory infection\nRefills: 1\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:33:16.512Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8754, "all_scores":
+  {"medical_prescription": 0.8754, "affidavit": 0.0514, "invoice": 0.0277, "lab_report":
+  0.0225, "legal_contract": 0.0203, "unknown": 0.0027}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-8ef59b2b9e49f0701414eb5282d8d46a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,25 @@
+artifact_path: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-07eacc1971554225b3393b8e8149abad/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.6
+  pytorch:
+    code: null
+    extra_files:
+    - path: extra_files\tokenizer
+    model_data: data
+    pytorch_version: 2.10.0+cpu
+mlflow_version: 3.10.0
+model_id: m-07eacc1971554225b3393b8e8149abad
+model_size_bytes: 438772409
+model_uuid: m-07eacc1971554225b3393b8e8149abad
+prompts: null
+run_id: b9fe2ee32ccf43d08ea1e1cc9764ab24
+utc_time_created: '2026-04-03 17:52:19.425700'

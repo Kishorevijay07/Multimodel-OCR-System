@@ -1,0 +1,17 @@
+execution_duration_ms: 38
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: Jane
+  Smith    Sample ID: LAB-4308\nReferred By: Dr. James Carter    Date: 10/12/2024\n\nTEST
+  RESULTS:\n  RBC                       4.0 mg/dL      CRITICAL\n  HbA1c                     9.6
+  M/uL       CRITICAL\n  Cholesterol               14.0 g/dL       CRITICAL\n  Fasting
+  Glucose           4.4 K/uL       LOW\n  Hemoglobin                9.8 mg/dL      NORMAL\n\nLaboratory
+  Director: Dr. Certified Pathologist\nReport verified and digitally signed."}'
+request_time: '2026-04-04T05:28:19.662Z'
+response_preview: '{"label": "lab_report", "confidence": 0.375, "all_scores": {"medical_prescription":
+  0.1429, "lab_report": 0.8571, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-ef92d71e21afd79b9a46bcf765452b21
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

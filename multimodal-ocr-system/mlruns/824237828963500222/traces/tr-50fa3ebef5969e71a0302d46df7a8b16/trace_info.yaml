@@ -1,0 +1,16 @@
+execution_duration_ms: 3083
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Robert Kumar\nDate:
+  15/06/2024\nPrescribed by: Dr. A. Kumar\n\nRx:\n1. Warfarin 10mg — every 12 hours
+  for 10 days\n2. Omeprazole 100mg — every 12 hours for 10 days\n\nDiagnosis: Acute
+  upper respiratory infection\nRefills: 0\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:34:32.888Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8787, "all_scores":
+  {"medical_prescription": 0.8787, "affidavit": 0.0537, "lab_report": 0.023, "invoice":
+  0.0222, "legal_contract": 0.0199, "unknown": 0.0026}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-50fa3ebef5969e71a0302d46df7a8b16
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

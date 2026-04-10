@@ -1,0 +1,21 @@
+execution_duration_ms: 24
+request_preview: '{"context": null, "model_input": {"text": "Rx: Amoxicillin 500mg
+  twice daily."}}'
+request_time: '2026-04-03T13:53:38.201Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "medical_prescription", "classification_confidence": 0.1875,
+  "classification_method": "keyword", "classifier_model": "", "all_type_scores": {"medical_prescription":
+  1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}}, "ocr": {"engine_used": "none", "avg_confidence": 1.0, "pages_processed":
+  0, "extracted_text": "Rx: Amoxicillin 500mg twice daily.", "word_count": 5, "char_count":
+  34}, "entities": {"entity_count": 3, "entities_by_type": {"DOSAGE": ["500mg", "twice
+  daily"], "DRUG": ["Amoxicillin"]}, "entities_list": [{"label": "DOSAGE", "value":
+  "500mg", "confidence": 1.0, "source": "regex"}, {"label": "DOSAGE", "value": "twice
+  daily", "confidence": 1.0, "source": "regex"}, {"label": "DRUG", "value": "Amoxicillin",
+  "confidence": 1.0, "source": "regex"}]}, "performance": {"total_latency_ms": 19.95}}'
+state: OK
+trace_id: tr-f1394e3c0aee25571f5df91254e07431
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

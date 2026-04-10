@@ -1,0 +1,17 @@
+execution_duration_ms: 7775
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 22/09/2024    Accession:
+  LAB-9987\nPatient Name: Anita Sharma    Physician: Dr. Emily Stone\n\nComplete Metabolic
+  Panel & CBC:\n  RBC                       8.5 mmol/L     CRITICAL\n  Cholesterol               9.3
+  mmol/L     HIGH\n  HbA1c                     13.9 %          LOW\n  Creatinine                12.7
+  %          HIGH\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:36:10.722Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7048, "all_scores": {"lab_report":
+  0.7048, "affidavit": 0.0705, "medical_prescription": 0.0699, "legal_contract": 0.0539,
+  "invoice": 0.0517, "unknown": 0.0493}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-fc913dbd907d385ff2c0165bd1e94c1a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

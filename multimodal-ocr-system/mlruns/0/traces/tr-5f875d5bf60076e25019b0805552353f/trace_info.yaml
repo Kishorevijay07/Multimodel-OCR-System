@@ -1,0 +1,32 @@
+execution_duration_ms: 441
+request_preview: '{"context": null, "model_input": {"text": "PATHCARE ADVANCED DIAGNOSTICS\nNABL
+  Accredited Laboratory | CAP Certified\nRegistration No: LAB/2024/MH/4521\nAddress:
+  200 Medical Center Drive, Building C, Mumbai, MH 400012\nPhone: +91-22-5555-0100
+  | Email: reports@pathcarediag.com\n\nCOMPREHENSIVE LABORATORY REPORT\n\nPatient
+  Information:\n  Name: Jane Alexandra Smith\n  Age/Sex: 38 Years / Female\n  Patient
+  ID: PC-2024-78421\n  Referring Physician: Dr. Anil Mehta, MD (Internal Medicine)\n  Sample
+  Collection Date: 12/03/2024 at 07:30 AM (Fasting)\n  Report Date: 13/03/2024\n  Sample
+  Type: Venous Blood, Urine\n  Sample ID: LAB-2024-00421\n\nCOMPLETE BLOOD COUNT (CBC):\n  Hemoglobin:           11.2
+  g/dL        [12.0 - 15.5]    LOW\n  RBC Count:            3.8 million/uL   [3.8
+  - 4.8]      NORMAL\n  WBC Count:            7,500 /uL        [4,000 - 11,000]  NORMAL\n  Platelet
+  Count:       245,000 /uL      [150,000-400,000] NORMAL\n  Hematocrit (PCV):     34.5%            [36.0
+  - 44.0]     LOW...'
+request_time: '2026-04-07T07:28:54.298Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "lab_report", "classification_confidence": 0.8182, "classification_method":
+  "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.073, "lab_report": 0.8182, "legal_contract":
+  0.034, "affidavit": 0.0237, "invoice": 0.024, "unknown": 0.0272}}, "ocr": {"engine_used":
+  "none", "avg_confidence": 1.0, "pages_processed": 0, "extracted_text": "PATHCARE
+  ADVANCED DIAGNOSTICS\nNABL Accredited Laboratory | CAP Certified\nRegistration No:
+  LAB/2024/MH/4521\nAddress: 200 Medical Center Drive, Building C, Mumbai, MH 400012\nPhone:
+  +91-22-5555-0100 | Email: reports@pathcarediag.com\n\nCOMPREHENSIVE LABORATORY REPORT\n\nPatient
+  Information:\n Name: Jane Alexandra Smith\n Age/Sex: 38 Years / Female\n Patient
+  ID: PC-2024-78421\n Referring Physician: Dr. Anil Mehta, MD (Internal Medicine)\n
+  Sample Collection Date: 12/03/2024 at 07:30 AM (...'
+state: OK
+trace_id: tr-5f875d5bf60076e25019b0805552353f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

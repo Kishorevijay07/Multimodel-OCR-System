@@ -1,0 +1,17 @@
+execution_duration_ms: 29
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: Anita
+  Sharma    Sample ID: LAB-9755\nReferred By: Dr. Emily Stone    Date: 10/12/2024\n\nTEST
+  RESULTS:\n  Creatinine                10.1 g/dL       NORMAL\n  Hemoglobin                12.2
+  mmol/L     HIGH\n  Cholesterol               5.0 mg/dL      NORMAL\n  RBC                       9.8
+  mmol/L     CRITICAL\n  HbA1c                     14.6 M/uL       CRITICAL\n\nLaboratory
+  Director: Dr. Certified Pathologist\nReport verified and digitally signed."}'
+request_time: '2026-04-04T05:28:18.795Z'
+response_preview: '{"label": "lab_report", "confidence": 0.3125, "all_scores": {"medical_prescription":
+  0.1667, "lab_report": 0.8333, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-484cf6a3bb4ae15d6507dbd8ccc3b099
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

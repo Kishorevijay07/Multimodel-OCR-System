@@ -1,0 +1,19 @@
+execution_duration_ms: 1677
+request_preview: '{"context": null, "model_input": {"source": "b''\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\x94\\x00\\x00\\x00\\xb9\\x08\\x00\\x00\\x00\\x00\\xebeI\\xe0\\x00\\x00\\x00\\x04gAMA\\x00\\x00\\xb1\\x8f\\x0b\\xfca\\x05\\x00\\x00\\x00\\x01sRGB\\x00\\xae\\xce\\x1c\\xe9\\x00\\x00\\x00
+  cHRM\\x00\\x00z&\\x00\\x00\\x80\\x84\\x00\\x00\\xfa\\x00\\x00\\x00\\x80\\xe8\\x00\\x00u0\\x00\\x00\\xea`\\x00\\x00:\\x98\\x00\\x00\\x17p\\x9c\\xbaQ<\\x00\\x00\\x00\\x02bKGD\\x00\\xff\\x87\\x8f\\xcc\\xbf\\x00\\x00\\x00\\tpHYs\\x00\\x00\\x00H\\x00\\x00\\x00H\\x00F\\xc9k>\\x00\\x0009IDATx\\xda\\xed\\xbcI\\x8c,[\\x9a&\\xf4\\x04j\\t!!\\x15;\\x90X\\xb0Dj\\xb1c\\xd3\\x08\\xd1\\x0b\\x16HH\\x8d@BB\\xadn\\x16\\xb4\\xbaA\\xac@\\r\\x0bZ\\xdd[\\xa0ZU$\\x95\\xf9\\xa6;\\xc4\\x8d\\xd1=\"|\\x08\\x9f\\xe7y\\x9e\\xe7y\\x9e\\x073ss\\xb7y\\x9e8\\x16\\x11\\xf7\\xe5\\xab\\xca\\xb8Y\\xfe\\x92\\xac\\xaa\\x04\\xdeyz\\xe1n\\xa3\\x7f\\xf7\\x9c\\xff|\\xff\\xf7\\xff\\xe77\\xfbJ\\xfb\\x03l_\\xfdM\\x03\\xf8\\x19\\xd4\\xcf\\xa0...'
+request_time: '2026-04-04T06:46:55.215Z'
+response_preview: '{"status": "success", "requires_human_review": true, "review_reasons":
+  ["low_ocr_confidence", "low_classification_confidence", "unknown_document_type"],
+  "document": {"type": "unknown", "classification_confidence": 0.2352, "classification_method":
+  "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.0958, "lab_report": 0.1796, "legal_contract":
+  0.2157, "affidavit": 0.1623, "invoice": 0.1113, "unknown": 0.2352}}, "ocr": {"engine_used":
+  "unavailable", "avg_confidence": 0.0, "pages_processed": 1, "extracted_text": "",
+  "word_count": 0, "char_count": 0}, "entities": {"entity_count": 0, "entities_by_type":
+  {}, "entities_list": []}, "performance": {"total_latency_ms": 1664.8}}'
+state: OK
+trace_id: tr-3c83955a55de6b7ba7844d8443ea0356
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

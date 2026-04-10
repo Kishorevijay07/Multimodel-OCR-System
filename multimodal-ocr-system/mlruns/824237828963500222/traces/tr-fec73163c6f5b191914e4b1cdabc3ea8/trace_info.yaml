@@ -1,0 +1,18 @@
+execution_duration_ms: 28
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-59034    Invoice Date:
+  15/06/2024\nFrom: Sunrise Pharmaceuticals\nBill To: Omega Finance Group\n\nITEMS:\n  Office
+  Supplies                     USD 4,141\n  Software License                    USD
+  4,750\n  Consulting Services                 USD 3,380\n\n                               Subtotal:  USD
+  10,506\n                               Tax (10%): USD 1,051\n                               TOTAL
+  DUE: USD 11,557\n\nPayment Due Date: 30 days from invoice date.\nBank Transfer /
+  Cheque payable to Sunrise Pharmaceuticals."}'
+request_time: '2026-04-04T05:28:20.482Z'
+response_preview: '{"label": "invoice", "confidence": 0.6667, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-fec73163c6f5b191914e4b1cdabc3ea8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

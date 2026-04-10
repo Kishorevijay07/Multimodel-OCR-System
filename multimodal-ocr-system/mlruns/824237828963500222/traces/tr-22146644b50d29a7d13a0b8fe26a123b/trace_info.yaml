@@ -1,0 +1,19 @@
+execution_duration_ms: 27
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-56152    Invoice Date:
+  05/01/2025\nFrom: Omega Finance Group\nBill To: GlobalTech Inc.\n\nITEMS:\n  Office
+  Supplies                     USD 866\n  IT Support                          USD
+  2,442\n  Consulting Services                 USD 800\n  Legal Advisory                      USD
+  2,040\n\n                               Subtotal:  USD 11,488\n                               Tax
+  (18%): USD 2,068\n                               TOTAL DUE: USD 13,556\n\nPayment
+  Due Date: 30 days from invoice date.\nBank Transfer / Cheque payable to Omega Finance
+  Group."}'
+request_time: '2026-04-04T05:28:21.148Z'
+response_preview: '{"label": "invoice", "confidence": 0.6667, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-22146644b50d29a7d13a0b8fe26a123b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,22 @@
+execution_duration_ms: 7298
+request_preview: '{"text": "SERVICE AGREEMENT\nThis Agreement is entered into on 22/09/2024
+  between:\nOmega Finance Group (hereinafter \"Service Provider\")\nAND\nXYZ Technology
+  Solutions Pvt. Ltd. (hereinafter \"Client\")\n\nWHEREAS the parties desire to set
+  forth the terms of engagement,\n\n1. SERVICES: Service Provider shall deliver software
+  consulting services.\n2. PAYMENT: Client shall pay USD 12,500 per month within 30
+  days of invoice.\n3. CONFIDENTIALITY: Both parties shall maintain strict confidentiality.\n4.
+  TERMINATION: Either party may terminate with 15 days written notice.\n5. JURISDICTION:
+  Governed by laws of State of California.\n6. INDEMNIFICATION: Each party shall indemnify
+  the other against third-party claims.\n\nIN WITNESS WHEREOF the parties execute
+  this Agreement on the date above."}'
+request_time: '2026-04-04T05:31:57.479Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.2659, "all_scores":
+  {"legal_contract": 0.2659, "affidavit": 0.2296, "invoice": 0.2282, "lab_report":
+  0.1228, "medical_prescription": 0.1176, "unknown": 0.036}, "method": "zero_shot",
+  "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-459c892adf900aa574f2e66d9ecfdc23
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

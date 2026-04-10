@@ -1,0 +1,19 @@
+artifact_path: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-fcce7af20898447db9a7ceb8a9af05e9/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.11.6
+    streamable: false
+mlflow_version: 3.10.0
+model_id: m-fcce7af20898447db9a7ceb8a9af05e9
+model_size_bytes: 347
+model_uuid: m-fcce7af20898447db9a7ceb8a9af05e9
+prompts: null
+run_id: 9321794c20f946ae8565cd2672861a55
+utc_time_created: '2026-03-03 08:31:44.703756'

@@ -1,0 +1,19 @@
+execution_duration_ms: 3270
+request_preview: '{"text": "SWORN STATEMENT / AFFIDAVIT\nDate: 15/06/2024    Place:
+  Mumbai\n\nI, Michael Chen, being duly sworn on oath, hereby declare that:\n- The
+  information provided herein is accurate and complete.\n- I have personal knowledge
+  of the facts set forth in this affidavit.\n- I make this declaration in support
+  of pending legal proceedings.\n\nI understand that false statements made herein
+  are subject to legal penalty.\n\nSigned: Michael Chen\nBefore me: _________________________
+  (Notary)"}'
+request_time: '2026-04-04T05:34:12.552Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8566, "all_scores": {"affidavit":
+  0.8566, "lab_report": 0.0375, "legal_contract": 0.0372, "medical_prescription":
+  0.0297, "unknown": 0.027, "invoice": 0.012}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-8afac3b80212a623ecf265890652fff6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

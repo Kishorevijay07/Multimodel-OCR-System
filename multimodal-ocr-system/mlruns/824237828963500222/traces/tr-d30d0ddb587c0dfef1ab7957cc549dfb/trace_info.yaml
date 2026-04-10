@@ -1,0 +1,18 @@
+execution_duration_ms: 24
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-11742    Invoice Date:
+  28/02/2025\nFrom: LexCorp Legal Services\nBill To: Omega Finance Group\n\nITEMS:\n  Software
+  License                    USD 2,436\n  Office Supplies                     USD
+  4,010\n\n                               Subtotal:  USD 13,130\n                               Tax
+  (10%): USD 1,313\n                               TOTAL DUE: USD 14,443\n\nPayment
+  Due Date: 30 days from invoice date.\nBank Transfer / Cheque payable to LexCorp
+  Legal Services."}'
+request_time: '2026-04-04T05:28:34.454Z'
+response_preview: '{"label": "invoice", "confidence": 0.6667, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-d30d0ddb587c0dfef1ab7957cc549dfb
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

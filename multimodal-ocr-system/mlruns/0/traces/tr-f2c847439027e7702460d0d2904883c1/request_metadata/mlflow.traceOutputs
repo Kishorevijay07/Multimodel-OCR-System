@@ -1,0 +1,1 @@
+{"entities": [{"label": "INVOICE_NUMBER", "value": "Invoice No: INV-999", "start": 0, "end": 19, "confidence": 1.0, "source": "regex"}], "by_type": {"INVOICE_NUMBER": ["Invoice No: INV-999"]}, "doc_type": "invoice"}

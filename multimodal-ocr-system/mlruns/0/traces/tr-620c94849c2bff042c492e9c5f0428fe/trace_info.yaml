@@ -1,0 +1,32 @@
+execution_duration_ms: 470
+request_preview: '{"context": null, "model_input": {"text": "CITY GENERAL HOSPITAL\nDepartment
+  of Internal Medicine\n123 Healthcare Avenue, New York, NY 10001\nPhone: (212) 555-0198
+  | Fax: (212) 555-0199\nMEDICAL PRESCRIPTION\nPatient Name: John Michael Doe\nDate
+  of Birth: 15/06/1979 | Age: 45 | Sex: Male\nMedical Record Number: MRN-2024-78432\nDate
+  of Visit: 14/03/2024\nAllergies: Penicillin (rash), Sulfa drugs\nDiagnosis: Acute
+  bacterial sinusitis (J01.90), Mild hypertension (I10)\nRx:\n1. Amoxicillin-Clavulanate
+  (Augmentin) 875mg/125mg\n   - Dosage: One tablet twice daily with meals\n   - Duration:
+  10 days\n   - Quantity: 20 tablets\n   - Refills: 0\n2. Ibuprofen 400mg\n   - Dosage:
+  One tablet three times daily after meals as needed for pain\n   - Duration: 7 days\n   -
+  Quantity: 21 tablets\n   - Refills: 1\n3. Fluticasone Propionate Nasal Spray 50mcg\n   -
+  Dosage: Two sprays in each nostril once daily\n   - Duration: 30 days\n   - Quantity:
+  1 bottle (120 sprays)\n   - Refills: 2\n4. Lisinopril 10...'
+request_time: '2026-04-07T07:31:45.022Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "medical_prescription", "classification_confidence": 0.8755,
+  "classification_method": "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.8755, "lab_report": 0.0557, "legal_contract":
+  0.0116, "affidavit": 0.0213, "invoice": 0.0205, "unknown": 0.0155}}, "ocr": {"engine_used":
+  "none", "avg_confidence": 1.0, "pages_processed": 0, "extracted_text": "CITY GENERAL
+  HOSPITAL\nDepartment of Internal Medicine\n123 Healthcare Avenue, New York, NY 10001\nPhone:
+  (212) 555-0198 | Fax: (212) 555-0199\nMEDICAL PRESCRIPTION\nPatient Name: John Michael
+  Doe\nDate of Birth: 15/06/1979 | Age: 45 | Sex: Male\nMedical Record Number: MRN-2024-78432\nDate
+  of Visit: 14/03/2024\nAllergies: Penicillin (rash), Sulfa drugs\nDiagnosis: Acute
+  bacterial sinusitis (J01.90), Mild hypertension (I10)\nRx:\n1. Amoxicillin-Clavulanate
+  (Augmentin) 875mg/...'
+state: OK
+trace_id: tr-620c94849c2bff042c492e9c5f0428fe
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

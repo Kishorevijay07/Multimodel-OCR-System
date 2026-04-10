@@ -1,0 +1,12 @@
+execution_duration_ms: 4
+request_preview: '{"text": "Invoice No: INV-999.", "document_type": "invoice"}'
+request_time: '2026-04-03T13:53:32.937Z'
+response_preview: '{"entities": [{"label": "INVOICE_NUMBER", "value": "Invoice No:
+  INV-999", "start": 0, "end": 19, "confidence": 1.0, "source": "regex"}], "by_type":
+  {"INVOICE_NUMBER": ["Invoice No: INV-999"]}, "doc_type": "invoice"}'
+state: OK
+trace_id: tr-d8e70aebe7b33085178be96820f87ba2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

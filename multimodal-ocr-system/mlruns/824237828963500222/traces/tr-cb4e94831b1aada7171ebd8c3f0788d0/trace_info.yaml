@@ -1,0 +1,17 @@
+execution_duration_ms: 4404
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 01/03/2024    Accession:
+  LAB-2458\nPatient Name: Priya Patel    Physician: Dr. Sarah Williams\n\nComplete
+  Metabolic Panel & CBC:\n  Bilirubin                 12.4 g/dL       NORMAL\n  RBC                       13.9
+  mmol/L     LOW\n  Hemoglobin                8.5 M/uL       HIGH\n\nNote: Values
+  outside reference range are flagged.\nInterpretation should be done in clinical
+  context."}'
+request_time: '2026-04-04T05:38:48.348Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7889, "all_scores": {"lab_report":
+  0.7889, "affidavit": 0.051, "medical_prescription": 0.0428, "invoice": 0.0414, "legal_contract":
+  0.0395, "unknown": 0.0364}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-cb4e94831b1aada7171ebd8c3f0788d0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

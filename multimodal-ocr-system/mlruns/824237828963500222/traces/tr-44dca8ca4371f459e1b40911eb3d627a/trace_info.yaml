@@ -1,0 +1,21 @@
+execution_duration_ms: 7180
+request_preview: '{"text": "SERVICE AGREEMENT\nThis Agreement is entered into on 01/03/2024
+  between:\nGlobalTech Inc. (hereinafter \"Service Provider\")\nAND\nABC Retail Corporation
+  (hereinafter \"Client\")\n\nWHEREAS the parties desire to set forth the terms of
+  engagement,\n\n1. SERVICES: Service Provider shall deliver software consulting services.\n2.
+  PAYMENT: Client shall pay USD 1,500 per month within 30 days of invoice.\n3. CONFIDENTIALITY:
+  Both parties shall maintain strict confidentiality.\n4. TERMINATION: Either party
+  may terminate with 30 days written notice.\n5. JURISDICTION: Governed by laws of
+  State of New York.\n6. INDEMNIFICATION: Each party shall indemnify the other against
+  third-party claims.\n\nIN WITNESS WHEREOF the parties execute this Agreement on
+  the date above."}'
+request_time: '2026-04-04T05:32:04.811Z'
+response_preview: '{"label": "invoice", "confidence": 0.2656, "all_scores": {"invoice":
+  0.2656, "legal_contract": 0.2549, "affidavit": 0.2186, "lab_report": 0.1128, "medical_prescription":
+  0.1114, "unknown": 0.0367}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-44dca8ca4371f459e1b40911eb3d627a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

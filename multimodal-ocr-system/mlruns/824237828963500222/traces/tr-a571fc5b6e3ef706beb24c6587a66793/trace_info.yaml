@@ -1,0 +1,17 @@
+execution_duration_ms: 26
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 10/12/2024    Accession:
+  LAB-5374\nPatient Name: David Lee    Physician: Dr. A. Kumar\n\nComplete Metabolic
+  Panel & CBC:\n  HbA1c                     7.3 K/uL       NORMAL\n  Hemoglobin                11.0
+  %          HIGH\n  RBC                       4.9 mmol/L     HIGH\n  Fasting Glucose           11.3
+  mmol/L     HIGH\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:28:35.390Z'
+response_preview: '{"label": "lab_report", "confidence": 0.375, "all_scores": {"medical_prescription":
+  0.1429, "lab_report": 0.8571, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-a571fc5b6e3ef706beb24c6587a66793
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,17 @@
+execution_duration_ms: 8283
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-34251    Invoice Date:
+  10/12/2024\nFrom: Sunrise Pharmaceuticals\nBill To: ABC Retail Corporation\n\nITEMS:\n  Consulting
+  Services                 USD 1,977\n  Office Supplies                     USD 2,810\n\n                               Subtotal:  USD
+  37,146\n                               Tax (18%): USD 6,686\n                               TOTAL
+  DUE: USD 43,832\n\nPayment Due Date: 30 days from invoice date.\nBank Transfer /
+  Cheque payable to Sunrise Pharmaceuticals."}'
+request_time: '2026-04-04T05:37:01.856Z'
+response_preview: '{"label": "invoice", "confidence": 0.8768, "all_scores": {"invoice":
+  0.8768, "affidavit": 0.0445, "lab_report": 0.0352, "legal_contract": 0.023, "medical_prescription":
+  0.0158, "unknown": 0.0048}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-0cb3d931b7ba5514615a8842e5cbebff
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

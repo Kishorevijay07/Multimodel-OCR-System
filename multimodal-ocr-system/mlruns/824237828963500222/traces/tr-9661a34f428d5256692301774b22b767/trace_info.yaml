@@ -1,0 +1,19 @@
+execution_duration_ms: 3407
+request_preview: '{"text": "SWORN STATEMENT / AFFIDAVIT\nDate: 15/06/2024    Place:
+  Toronto\n\nI, Sarah Williams, being duly sworn on oath, hereby declare that:\n-
+  The information provided herein is accurate and complete.\n- I have personal knowledge
+  of the facts set forth in this affidavit.\n- I make this declaration in support
+  of pending legal proceedings.\n\nI understand that false statements made herein
+  are subject to legal penalty.\n\nSigned: Sarah Williams\nBefore me: _________________________
+  (Notary)"}'
+request_time: '2026-04-04T05:38:15.184Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8759, "all_scores": {"affidavit":
+  0.8759, "legal_contract": 0.0357, "lab_report": 0.0306, "medical_prescription":
+  0.026, "unknown": 0.0207, "invoice": 0.0112}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-9661a34f428d5256692301774b22b767
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

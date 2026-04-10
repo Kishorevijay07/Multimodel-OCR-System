@@ -1,0 +1,18 @@
+execution_duration_ms: 3227
+request_preview: '{"text": "SWORN STATEMENT / AFFIDAVIT\nDate: 10/12/2024    Place:
+  New York\n\nI, Jane Smith, being duly sworn on oath, hereby declare that:\n- The
+  information provided herein is accurate and complete.\n- I have personal knowledge
+  of the facts set forth in this affidavit.\n- I make this declaration in support
+  of pending legal proceedings.\n\nI understand that false statements made herein
+  are subject to legal penalty.\n\nSigned: Jane Smith\nBefore me: _________________________
+  (Notary)"}'
+request_time: '2026-04-04T05:33:19.689Z'
+response_preview: '{"label": "affidavit", "confidence": 0.861, "all_scores": {"affidavit":
+  0.861, "legal_contract": 0.0419, "lab_report": 0.035, "medical_prescription": 0.0273,
+  "unknown": 0.022, "invoice": 0.0128}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-62ca9ff52ef20c0d16187a767c69a5ed
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

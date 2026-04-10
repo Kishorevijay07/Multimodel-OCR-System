@@ -1,0 +1,19 @@
+execution_duration_ms: 3975
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 22/09/2024\nBetween:
+  Omega Finance Group and XYZ Technology Solutions Pvt. Ltd.\n\nWhereas both parties
+  wish to explore a potential business relationship,\neach party (the \"Disclosing
+  Party\") may share proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall
+  not disclose Confidential Information to third parties.\n- Obligations survive termination
+  for a period of 3 years.\n- Breach shall entitle Disclosing Party to seek injunctive
+  relief.\n\nJURISDICTION & GOVERNING LAW:\nThis Agreement is governed by the laws
+  of State of Maharashtra.\n\nAGREED AND EXECUTED on 22/09/2024."}'
+request_time: '2026-04-04T05:33:30.474Z'
+response_preview: '{"label": "affidavit", "confidence": 0.3022, "all_scores": {"affidavit":
+  0.3022, "legal_contract": 0.2921, "invoice": 0.1412, "lab_report": 0.1343, "medical_prescription":
+  0.0941, "unknown": 0.0362}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-36c39795dad47e7ddf73109aced03bdf
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,16 @@
+execution_duration_ms: 4098
+request_preview: '{"text": "LAB REPORT — LAB-3320\nPatient: John Doe\nOrdering Provider:
+  Dr. Sarah Williams    Collection Date: 15/06/2024\n\n  Cholesterol               7.5
+  mmol/L     CRITICAL\n  Fasting Glucose           10.0 M/uL       HIGH\n  Hemoglobin                6.9
+  K/uL       CRITICAL\n\nSpecimen: Venous blood collected under sterile conditions.\nFindings
+  discussed with ordering physician."}'
+request_time: '2026-04-04T05:36:57.719Z'
+response_preview: '{"label": "lab_report", "confidence": 0.8863, "all_scores": {"lab_report":
+  0.8863, "affidavit": 0.0305, "invoice": 0.0285, "medical_prescription": 0.028, "legal_contract":
+  0.0208, "unknown": 0.006}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-86ef4e91c7660923158a07e5312bf368
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

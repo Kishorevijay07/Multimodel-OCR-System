@@ -1,0 +1,16 @@
+execution_duration_ms: 2914
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Anita Sharma\nDate:
+  01/03/2024\nPrescribed by: Dr. James Carter\n\nRx:\n1. Prednisone 100mg — once daily
+  for 10 days\n2. Warfarin 500mg — every 8 hours for 10 days\n\nDiagnosis: Acute upper
+  respiratory infection\nRefills: 0\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:31:13.530Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8778, "all_scores":
+  {"medical_prescription": 0.8778, "affidavit": 0.0561, "invoice": 0.0247, "lab_report":
+  0.0199, "legal_contract": 0.0193, "unknown": 0.0022}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-40d81dbfbcefacad0b8e79cfcb429cee
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

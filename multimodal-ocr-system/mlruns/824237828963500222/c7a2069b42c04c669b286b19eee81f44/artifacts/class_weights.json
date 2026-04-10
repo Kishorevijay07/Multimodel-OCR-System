@@ -1,0 +1,8 @@
+{
+  "medical_prescription": 0.1961,
+  "lab_report": 0.2055,
+  "legal_contract": 0.1948,
+  "affidavit": 0.1961,
+  "invoice": 0.2083,
+  "unknown": 4.9994
+}

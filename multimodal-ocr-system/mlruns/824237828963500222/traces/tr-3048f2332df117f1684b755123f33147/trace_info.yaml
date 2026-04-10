@@ -1,0 +1,16 @@
+execution_duration_ms: 26
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  John Doe   Consulting Physician: Dr. P. Mehta\nDate of Issue: 10/12/2024\n\nMedications
+  Prescribed:\n- Paracetamol 20mg: Take thrice daily with food\n- Lisinopril 10mg:
+  Take every 8 hours at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full
+  course.\nValid for 30 days. Refills allowed: 1"}'
+request_time: '2026-04-04T05:28:21.732Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.1875, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-3048f2332df117f1684b755123f33147
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

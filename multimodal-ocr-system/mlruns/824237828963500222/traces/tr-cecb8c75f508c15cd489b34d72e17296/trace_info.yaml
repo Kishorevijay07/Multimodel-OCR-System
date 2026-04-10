@@ -1,0 +1,20 @@
+execution_duration_ms: 4896
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 10/12/2024\nBetween:
+  LexCorp Legal Services and Sunrise Pharmaceuticals\n\nWhereas both parties wish
+  to explore a potential business relationship,\neach party (the \"Disclosing Party\")
+  may share proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall not
+  disclose Confidential Information to third parties.\n- Obligations survive termination
+  for a period of 3 years.\n- Breach shall entitle Disclosing Party to seek injunctive
+  relief.\n\nJURISDICTION & GOVERNING LAW:\nThis Agreement is governed by the laws
+  of State of Maharashtra.\n\nAGREED AND EXECUTED on 10/12/2024."}'
+request_time: '2026-04-04T05:35:42.912Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.3146, "all_scores":
+  {"legal_contract": 0.3146, "affidavit": 0.2958, "invoice": 0.124, "lab_report":
+  0.1206, "medical_prescription": 0.1158, "unknown": 0.0292}, "method": "zero_shot",
+  "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-cecb8c75f508c15cd489b34d72e17296
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

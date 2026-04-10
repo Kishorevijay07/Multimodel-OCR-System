@@ -1,0 +1,18 @@
+execution_duration_ms: 24
+request_preview: '{"context": null, "model_input": {"text": "one two three four five"}}'
+request_time: '2026-04-03T13:53:53.332Z'
+response_preview: '{"status": "success", "requires_human_review": true, "review_reasons":
+  ["low_classification_confidence", "unknown_document_type"], "document": {"type":
+  "unknown", "classification_confidence": 0.0, "classification_method": "keyword",
+  "classifier_model": "", "all_type_scores": {"medical_prescription": 0.0, "lab_report":
+  0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0, "unknown": 0.0}},
+  "ocr": {"engine_used": "none", "avg_confidence": 1.0, "pages_processed": 0, "extracted_text":
+  "one two three four five", "word_count": 5, "char_count": 23}, "entities": {"entity_count":
+  0, "entities_by_type": {}, "entities_list": []}, "performance": {"total_latency_ms":
+  18.61}}'
+state: OK
+trace_id: tr-9d37efb6eafb3e9054ec84ce002ccb25
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

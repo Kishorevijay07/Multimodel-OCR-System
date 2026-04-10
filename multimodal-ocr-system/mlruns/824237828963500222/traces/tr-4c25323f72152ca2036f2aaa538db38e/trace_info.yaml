@@ -1,0 +1,17 @@
+execution_duration_ms: 25
+request_preview: '{"text": "SWORN STATEMENT / AFFIDAVIT\nDate: 15/06/2024    Place:
+  Sydney\n\nI, David Lee, being duly sworn on oath, hereby declare that:\n- The information
+  provided herein is accurate and complete.\n- I have personal knowledge of the facts
+  set forth in this affidavit.\n- I make this declaration in support of pending legal
+  proceedings.\n\nI understand that false statements made herein are subject to legal
+  penalty.\n\nSigned: David Lee\nBefore me: _________________________ (Notary)"}'
+request_time: '2026-04-04T05:28:32.707Z'
+response_preview: '{"label": "affidavit", "confidence": 0.4, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 1.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-4c25323f72152ca2036f2aaa538db38e
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

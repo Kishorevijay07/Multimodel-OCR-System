@@ -1,0 +1,12 @@
+execution_duration_ms: 3
+request_preview: '{"text": "abc 123 xyz random nonsense"}'
+request_time: '2026-04-03T13:53:32.589Z'
+response_preview: '{"label": "unknown", "confidence": 0.0, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-73b0d6763527a5c8c534ca08f6f24d1c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

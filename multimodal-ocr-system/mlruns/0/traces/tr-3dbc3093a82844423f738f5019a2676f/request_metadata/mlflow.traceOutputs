@@ -1,0 +1,1 @@
+{"entities": [{"label": "DATE", "value": "14/03/2024", "start": 6, "end": 16, "confidence": 1.0, "source": "regex"}], "by_type": {"DATE": ["14/03/2024"]}, "doc_type": "medical_prescription"}

@@ -1,0 +1,19 @@
+execution_duration_ms: 4251
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 28/02/2025\nBetween:
+  ABC Retail Corporation and GlobalTech Inc.\n\nWhereas both parties wish to explore
+  a potential business relationship,\neach party (the \"Disclosing Party\") may share
+  proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall not disclose Confidential
+  Information to third parties.\n- Obligations survive termination for a period of
+  3 years.\n- Breach shall entitle Disclosing Party to seek injunctive relief.\n\nJURISDICTION
+  & GOVERNING LAW:\nThis Agreement is governed by the laws of State of Maharashtra.\n\nAGREED
+  AND EXECUTED on 28/02/2025."}'
+request_time: '2026-04-04T05:38:36.755Z'
+response_preview: '{"label": "affidavit", "confidence": 0.3287, "all_scores": {"affidavit":
+  0.3287, "legal_contract": 0.3217, "invoice": 0.1238, "lab_report": 0.1169, "medical_prescription":
+  0.0758, "unknown": 0.0331}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-b179f7392bf97bcd7b6ed752ac4b96a6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

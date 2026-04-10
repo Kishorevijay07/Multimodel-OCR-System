@@ -1,0 +1,18 @@
+execution_duration_ms: 11
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 15/06/2024    Accession:
+  LAB-3798\nPatient Name: Jane Smith    Physician: Dr. Sarah Williams\n\nComplete
+  Metabolic Panel & CBC:\n  HbA1c                     12.4 %          CRITICAL\n  WBC                       13.7
+  M/uL       NORMAL\n  Platelet                  10.7 %          LOW\n  Hemoglobin                7.5
+  %          HIGH\n  RBC                       5.2 g/dL       HIGH\n\nNote: Values
+  outside reference range are flagged.\nInterpretation should be done in clinical
+  context."}'
+request_time: '2026-04-03T13:53:55.148Z'
+response_preview: '{"label": "lab_report", "confidence": 0.4375, "all_scores": {"medical_prescription":
+  0.125, "lab_report": 0.875, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-ad8cbfeade4b061eb45e9463032a09e0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

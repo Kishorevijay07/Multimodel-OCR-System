@@ -1,0 +1,16 @@
+execution_duration_ms: 12
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Sarah Williams   Consulting Physician: Dr. Emily Stone\nDate of Issue: 15/06/2024\n\nMedications
+  Prescribed:\n- Prednisone 500mg: Take twice daily with food\n- Metoprolol 20mg:
+  Take thrice daily at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full
+  course.\nValid for 30 days. Refills allowed: 0"}'
+request_time: '2026-04-03T13:53:55.221Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.25, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-1861c9f39e44e98cb359390eb0309aaf
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

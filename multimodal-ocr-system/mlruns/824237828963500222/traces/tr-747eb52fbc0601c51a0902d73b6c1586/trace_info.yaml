@@ -1,0 +1,16 @@
+execution_duration_ms: 26
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Michael Chen   Consulting Physician: Dr. James Carter\nDate of Issue: 15/06/2024\n\nMedications
+  Prescribed:\n- Prednisone 500mg: Take once daily with food\n- Omeprazole 400mg:
+  Take every 12 hours at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete
+  full course.\nValid for 30 days. Refills allowed: 1"}'
+request_time: '2026-04-04T05:28:37.101Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.25, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-747eb52fbc0601c51a0902d73b6c1586
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

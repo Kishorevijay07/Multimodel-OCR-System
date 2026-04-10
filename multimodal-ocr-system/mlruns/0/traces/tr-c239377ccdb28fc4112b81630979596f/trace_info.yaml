@@ -1,0 +1,23 @@
+execution_duration_ms: 8261
+request_preview: '{"context": null, "model_input": {"source": "b''\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x03
+  \\x00\\x00\\x03\\xe8\\x08\\x02\\x00\\x00\\x00\\xa9\\xa9\\r\\xe6\\x00\\x00\\x8b\\xbeIDATx\\x9c\\xec\\xdd\\x7f\\\\Ue\\xbe\\xf7\\xff\\x85
+  \\x9b\\x8dc\\xd0\\x0f\\x15M=s\\xb4r\\xc6T\\x10\\x1d\\x15a\\xff@\\x05\\x11GE\\xe7\\x0eSQA\\xeb\\x1c\\x1f~\\xb3&K\\xcc\\xdb\\x8a\\xe9\\xee>\\xfeltFN\\xd11#C\\xc7\\xe1\\x14#\\xd9\\x98\"9\\xa6\\x96\\x85\\xd61\\xb3!5\\x7f\"b\\x8a\\x11?$\\xe3\\xf7\\xf5}\\x9c\\xae{\\xd6\\xbd\\xef\\xb5\\xf6\\xde@]\\n\\xda\\xeb\\xf9\\xd7b\\xadk}\\xae\\xcfu\\xad=\\x87w{o<>B\\x08\\r\\x00\\x00\\x00\\xeatPX\\x0b\\x00\\x00\\x00\\x04,\\x00\\x00\\x00\\xf5x\\x07\\x0b\\x00\\x00@1\\x02\\x16\\x00\\x00\\x80b\\x04,\\x00\\x00\\x00\\xc5\\x08X\\x00\\x00\\x00\\x8a\\x11\\xb0\\x00\\x00\\x00\\x14#`\\x01\\x00\\x00(F\\xc0\\x02\\x00\\x00P\\x8c\\x80\\x05\\x00\\x00\\xa0\\x18\\x01\\x0b\\x00\\x00@1\\x02\\x16\\x00\\x00\\x80b\\x04,\\x00\\x00\\x00\\xc5\\x08X\\x00\\x00\\x00\\x8a\\x11\\xb0\\x00\\x00\\x...'
+request_time: '2026-04-07T07:18:32.839Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "legal_contract", "classification_confidence": 0.348, "classification_method":
+  "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.0818, "lab_report": 0.0676, "legal_contract":
+  0.348, "affidavit": 0.1378, "invoice": 0.2583, "unknown": 0.1064}}, "ocr": {"engine_used":
+  "easyocr", "avg_confidence": 0.5642, "pages_processed": 1, "extracted_text": "SERVICE
+  PGREEMENTCONTRPCT This Pgreementisentered intoon this Ith dayof Iuarch 2024 etuzen
+  XYZ Technolagy Eolutions Fvt Ltd. co Mca Ncorcorated under the Companies Pct (hereinafter
+  referred toas \"Eenrica Provider) AND REC Retail Corporation cpmpany incorporated
+  underthe Companies Pct (hereinafter referred toas lient) ECOPEOF GERVICES The Eenrica
+  Provider shal provride soltware developmentand ITconsulting senicesas mutually agreed
+  PRYMENT TERMS The Clientagrees pay USD 15,000...'
+state: OK
+trace_id: tr-c239377ccdb28fc4112b81630979596f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

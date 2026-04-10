@@ -1,0 +1,14 @@
+execution_duration_ms: 5
+request_preview: '{"text": "Amoxicillin 500mg. Take Amoxicillin 500mg twice.", "document_type":
+  "medical_prescription"}'
+request_time: '2026-04-03T13:53:32.897Z'
+response_preview: '{"entities": [{"label": "DOSAGE", "value": "500mg", "start": 12,
+  "end": 17, "confidence": 1.0, "source": "regex"}, {"label": "DRUG", "value": "Amoxicillin",
+  "start": 0, "end": 11, "confidence": 1.0, "source": "regex"}], "by_type": {"DOSAGE":
+  ["500mg"], "DRUG": ["Amoxicillin"]}, "doc_type": "medical_prescription"}'
+state: OK
+trace_id: tr-13325c31d010318aeadc9960424211e2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,13 @@
+execution_duration_ms: 8
+request_preview: '{"text": "I, John Doe, do hereby solemnly affirm and declare. Sworn
+  before me, Notary Public. Commissioner of Oaths signature."}'
+request_time: '2026-04-03T15:40:18.808Z'
+response_preview: '{"label": "affidavit", "confidence": 0.5, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 1.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-3fc825ac869bc00fcc152a1be2789642
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

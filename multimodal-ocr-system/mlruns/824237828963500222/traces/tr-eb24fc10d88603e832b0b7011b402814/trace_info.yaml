@@ -1,0 +1,17 @@
+execution_duration_ms: 4930
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 01/03/2024    Accession:
+  LAB-7453\nPatient Name: Jane Smith    Physician: Dr. A. Kumar\n\nComplete Metabolic
+  Panel & CBC:\n  Fasting Glucose           5.4 mg/dL      CRITICAL\n  Cholesterol               9.0
+  g/dL       NORMAL\n  Creatinine                4.6 M/uL       CRITICAL\n  WBC                       9.2
+  K/uL       LOW\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:30:50.004Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7161, "all_scores": {"lab_report":
+  0.7161, "medical_prescription": 0.0637, "affidavit": 0.0631, "legal_contract": 0.0572,
+  "invoice": 0.0564, "unknown": 0.0435}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-eb24fc10d88603e832b0b7011b402814
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

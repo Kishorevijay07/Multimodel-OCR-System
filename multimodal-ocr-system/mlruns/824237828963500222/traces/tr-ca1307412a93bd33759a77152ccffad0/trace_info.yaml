@@ -1,0 +1,18 @@
+execution_duration_ms: 3655
+request_preview: '{"text": "AFFIDAVIT\nI, Michael Chen, do hereby solemnly affirm
+  and declare as follows:\n\n1. I am a resident of New York and am competent to make
+  this affidavit.\n2. The facts stated herein are true to the best of my knowledge
+  and belief.\n3. I have not suppressed any material fact that is within my knowledge.\n4.
+  This affidavit is made for the purpose of legal proceedings.\n\nDEPONENT: Michael
+  Chen\nSworn and subscribed before me on this 22/09/2024.\nNotary Public / Commissioner
+  of Oaths.\nSeal and Signature of Notary."}'
+request_time: '2026-04-04T05:33:22.955Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8392, "all_scores": {"affidavit":
+  0.8392, "legal_contract": 0.0403, "lab_report": 0.0387, "unknown": 0.0348, "medical_prescription":
+  0.0324, "invoice": 0.0145}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-ca1307412a93bd33759a77152ccffad0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,10 @@
+execution_duration_ms: 0
+request_preview: '{"raw_text": "Some  OCR   text with artifacts"}'
+request_time: '2026-04-03T15:40:37.550Z'
+response_preview: '"Some OCR text with artifacts"'
+state: OK
+trace_id: tr-336d778637a3c30aa1f0fa7a8db78572
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

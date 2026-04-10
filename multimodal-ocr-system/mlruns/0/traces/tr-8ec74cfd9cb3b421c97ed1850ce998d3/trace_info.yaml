@@ -1,0 +1,32 @@
+execution_duration_ms: 517
+request_preview: '{"context": null, "model_input": {"text": "\nPROFESSIONAL SERVICES
+  AGREEMENT\n\nContract Reference: PSA-2024-00892\nEffective Date: March 10, 2024\n\nThis
+  Professional Services Agreement (\"Agreement\") is entered into as of the Effective
+  Date by and between:\n\nPARTY A (Service Provider):\nXYZ Technology Solutions Private
+  Limited\nRegistered Address: 456 Innovation Park, Suite 200, San Francisco, CA 94105\nTax
+  Identification Number: 82-1234567\nRepresented by: Mr. Rajesh Kumar, Chief Executive
+  Officer\n\nAND\n\nPARTY B (Client):\nABC Retail Corporation\nRegistered Address:
+  789 Commerce Boulevard, Floor 15, Chicago, IL 60601\nTax Identification Number:
+  36-7654321\nRepresented by: Ms. Emily Johnson, Vice President of Operations\n\nRECITALS:\nWHEREAS,
+  the Service Provider possesses expertise in enterprise software development, cloud
+  infrastructure, and data analytics; and\nWHEREAS, the Client desires to engage the
+  Service Provider to design, develop, and deploy a custom inventory mana...'
+request_time: '2026-04-07T07:31:08.726Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "legal_contract", "classification_confidence": 0.7849,
+  "classification_method": "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.0265, "lab_report": 0.0475, "legal_contract":
+  0.7849, "affidavit": 0.0644, "invoice": 0.0442, "unknown": 0.0325}}, "ocr": {"engine_used":
+  "none", "avg_confidence": 1.0, "pages_processed": 0, "extracted_text": "PROFESSIONAL
+  SERVICES AGREEMENT\n\nContract Reference: PSA-2024-00892\nEffective Date: March
+  10, 2024\n\nThis Professional Services Agreement (\"Agreement\") is entered into
+  as of the Effective Date by and between:\n\nPARTY A (Service Provider):\nXYZ Technology
+  Solutions Private Limited\nRegistered Address: 456 Innovation Park, Suite 200, San
+  Francisco, CA 94105\nTax Identification Number: 82-1234567\nRepresented by: Mr.
+  Rajesh Kumar, Chief Executive Officer\n\nAND\n\nPARTY B (Cl...'
+state: OK
+trace_id: tr-8ec74cfd9cb3b421c97ed1850ce998d3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

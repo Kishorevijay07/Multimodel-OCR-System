@@ -1,0 +1,20 @@
+execution_duration_ms: 26
+request_preview: '{"text": "MASTER SERVICE AGREEMENT\nParties: Sunrise Pharmaceuticals
+  (\"Vendor\") and XYZ Technology Solutions Pvt. Ltd. (\"Buyer\")    Date: 05/01/2025\n\n1.
+  SCOPE — Vendor agrees to provide services as described in each Statement of Work.\n2.
+  PAYMENT — Buyer shall remit payment of GBP 3,000 per engagement within 30 days.\n3.
+  WARRANTY — Vendor warrants services meet industry standards.\n4. LIABILITY — Neither
+  party shall be liable for indirect or consequential damages.\n5. ARBITRATION — Disputes
+  resolved via binding arbitration in State of Maharashtra.\n6. ENTIRE AGREEMENT —
+  This document constitutes the entire agreement between parties.\n\nSigned on behalf
+  of both parties with full authority."}'
+request_time: '2026-04-04T05:28:22.040Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.2667, "all_scores":
+  {"medical_prescription": 0.0, "lab_report": 0.0, "legal_contract": 1.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-6b41efa4086da448afe69daccc391e9a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

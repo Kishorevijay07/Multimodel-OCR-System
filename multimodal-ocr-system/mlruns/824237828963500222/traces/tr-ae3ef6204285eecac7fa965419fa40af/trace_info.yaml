@@ -1,0 +1,18 @@
+execution_duration_ms: 26
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 01/03/2024    Accession:
+  LAB-1653\nPatient Name: Anita Sharma    Physician: Dr. R. Singh\n\nComplete Metabolic
+  Panel & CBC:\n  Fasting Glucose           13.0 M/uL       LOW\n  WBC                       7.5
+  %          HIGH\n  Cholesterol               10.1 g/dL       HIGH\n  HbA1c                     7.5
+  K/uL       CRITICAL\n  RBC                       7.2 M/uL       CRITICAL\n\nNote:
+  Values outside reference range are flagged.\nInterpretation should be done in clinical
+  context."}'
+request_time: '2026-04-04T05:28:36.656Z'
+response_preview: '{"label": "lab_report", "confidence": 0.375, "all_scores": {"medical_prescription":
+  0.1429, "lab_report": 0.8571, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-ae3ef6204285eecac7fa965419fa40af
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

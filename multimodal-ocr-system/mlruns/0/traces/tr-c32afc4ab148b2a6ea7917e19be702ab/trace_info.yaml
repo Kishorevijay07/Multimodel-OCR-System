@@ -1,0 +1,19 @@
+execution_duration_ms: 10
+request_preview: '{"text": "NON-DISCLOSURE AGREEMENT (NDA)\nEffective Date: 10/12/2024\nBetween:
+  ABC Retail Corporation and Sunrise Pharmaceuticals\n\nWhereas both parties wish
+  to explore a potential business relationship,\neach party (the \"Disclosing Party\")
+  may share proprietary information.\n\nOBLIGATIONS:\n- Receiving Party shall not
+  disclose Confidential Information to third parties.\n- Obligations survive termination
+  for a period of 3 years.\n- Breach shall entitle Disclosing Party to seek injunctive
+  relief.\n\nJURISDICTION & GOVERNING LAW:\nThis Agreement is governed by the laws
+  of State of New York.\n\nAGREED AND EXECUTED on 10/12/2024."}'
+request_time: '2026-04-03T15:40:37.349Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.5333, "all_scores":
+  {"medical_prescription": 0.0, "lab_report": 0.0, "legal_contract": 1.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-c32afc4ab148b2a6ea7917e19be702ab
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

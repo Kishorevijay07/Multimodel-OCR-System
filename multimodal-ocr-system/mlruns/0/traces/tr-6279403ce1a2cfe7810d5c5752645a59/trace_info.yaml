@@ -1,0 +1,15 @@
+execution_duration_ms: 11
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: David Lee\nDate: 15/06/2024\nPrescribed
+  by: Dr. Emily Stone\n\nRx:\n1. Amlodipine 400mg — every 12 hours for 14 days\n2.
+  Amoxicillin 20mg — every 8 hours for 14 days\n\nDiagnosis: Acute upper respiratory
+  infection\nRefills: 2\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-03T15:40:37.328Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.5, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-6279403ce1a2cfe7810d5c5752645a59
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

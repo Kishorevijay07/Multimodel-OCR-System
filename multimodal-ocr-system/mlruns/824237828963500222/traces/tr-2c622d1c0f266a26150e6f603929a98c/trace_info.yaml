@@ -1,0 +1,17 @@
+execution_duration_ms: 8171
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-83505    Invoice Date:
+  28/02/2025\nFrom: Omega Finance Group\nBill To: ABC Retail Corporation\n\nITEMS:\n  Consulting
+  Services                 USD 1,796\n  Software License                    USD 3,770\n\n                               Subtotal:  USD
+  24,048\n                               Tax (10%): USD 2,405\n                               TOTAL
+  DUE: USD 26,453\n\nPayment Due Date: 30 days from invoice date.\nBank Transfer /
+  Cheque payable to Omega Finance Group."}'
+request_time: '2026-04-04T05:33:52.350Z'
+response_preview: '{"label": "invoice", "confidence": 0.8776, "all_scores": {"invoice":
+  0.8776, "affidavit": 0.0424, "lab_report": 0.0363, "legal_contract": 0.0299, "medical_prescription":
+  0.0089, "unknown": 0.0049}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-2c622d1c0f266a26150e6f603929a98c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

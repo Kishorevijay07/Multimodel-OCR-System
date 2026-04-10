@@ -1,0 +1,25 @@
+execution_duration_ms: 18
+request_preview: '{"context": null, "model_input": {"text": "SERVICE AGREEMENT\nThis
+  agreement is entered on 10/03/2024 between:\nXYZ Technology Solutions Pvt. Ltd.
+  (hereinafter ''Service Provider'')\nAND ABC Retail Corporation (hereinafter ''Client'')\n\n1.
+  PAYMENT: Client shall pay USD 15,000 per month.\n2. TERMINATION: 30 days written
+  notice required.\n3. JURISDICTION: Governed by laws of State of California."}}'
+request_time: '2026-04-04T06:07:29.172Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "legal_contract", "classification_confidence": 0.3333,
+  "classification_method": "keyword", "classifier_model": "", "all_type_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 1.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}}, "ocr": {"engine_used": "none", "avg_confidence": 1.0, "pages_processed":
+  0, "extracted_text": "SERVICE AGREEMENT\nThis agreement is entered on 10/03/2024
+  between:\nXYZ Technology Solutions Pvt. Ltd. (hereinafter ''Service Provider'')\nAND
+  ABC Retail Corporation (hereinafter ''Client'')\n\n1. PAYMENT: Client shall pay
+  USD 15,000 per month.\n2. TERMINATION: 30 days written notice required.\n3. JURISDICTION:
+  Governed by laws of State of California.", "word_count": 48, "char_count": 343},
+  "entities": {"entity_count": 7, "entities_by_type": {"DATE": ["10/03/2024"], "MONETARY_VALUE":
+  ["USD 15,000"], "JURISDICTION": ["State of California", "Gove...'
+state: OK
+trace_id: tr-79837ad05187e1de05fd1cbc17b1a302
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

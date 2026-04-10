@@ -1,0 +1,17 @@
+execution_duration_ms: 26
+request_preview: '{"text": "LAB REPORT — LAB-5366\nPatient: Priya Patel\nOrdering
+  Provider: Dr. James Carter    Collection Date: 15/06/2024\n\n  Hemoglobin                14.2
+  K/uL       LOW\n  Platelet                  5.8 M/uL       HIGH\n  HbA1c                     14.0
+  g/dL       HIGH\n  Bilirubin                 14.4 mg/dL      LOW\n  RBC                       9.8
+  K/uL       CRITICAL\n\nSpecimen: Venous blood collected under sterile conditions.\nFindings
+  discussed with ordering physician."}'
+request_time: '2026-04-04T05:28:21.991Z'
+response_preview: '{"label": "lab_report", "confidence": 0.375, "all_scores": {"medical_prescription":
+  0.1429, "lab_report": 0.8571, "legal_contract": 0.0, "affidavit": 0.0, "invoice":
+  0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-41f636fe4b5ead1a920f74bd14999f48
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

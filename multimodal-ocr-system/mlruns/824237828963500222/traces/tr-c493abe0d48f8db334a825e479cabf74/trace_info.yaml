@@ -1,0 +1,16 @@
+execution_duration_ms: 4637
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: David
+  Lee    Sample ID: LAB-8826\nReferred By: Dr. James Carter    Date: 15/06/2024\n\nTEST
+  RESULTS:\n  Platelet                  11.8 g/dL       NORMAL\n  Creatinine                6.8
+  M/uL       LOW\n  Hemoglobin                7.6 K/uL       LOW\n\nLaboratory Director:
+  Dr. Certified Pathologist\nReport verified and digitally signed."}'
+request_time: '2026-04-04T05:38:32.078Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7151, "all_scores": {"lab_report":
+  0.7151, "affidavit": 0.1394, "legal_contract": 0.0638, "invoice": 0.0371, "medical_prescription":
+  0.0362, "unknown": 0.0084}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-c493abe0d48f8db334a825e479cabf74
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

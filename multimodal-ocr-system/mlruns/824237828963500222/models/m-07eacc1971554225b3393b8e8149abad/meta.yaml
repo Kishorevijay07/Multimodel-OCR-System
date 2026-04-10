@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Programming/Creative innovative project/multimodal-ocr-system/mlruns/824237828963500222/models/m-07eacc1971554225b3393b8e8149abad/artifacts
+creation_timestamp: 1775238738628
+experiment_id: '824237828963500222'
+last_updated_timestamp: 1775238772151
+model_id: m-07eacc1971554225b3393b8e8149abad
+model_type: ''
+name: bert_classifier
+source_run_id: b9fe2ee32ccf43d08ea1e1cc9764ab24
+status: 2
+status_message: null

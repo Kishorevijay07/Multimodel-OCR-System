@@ -1,0 +1,13 @@
+execution_duration_ms: 9
+request_preview: '{"text": "This agreement is entered between the parties hereinafter.
+  Governed by the laws of California. Indemnification clause applies."}'
+request_time: '2026-04-03T15:40:37.584Z'
+response_preview: '{"label": "legal_contract", "confidence": 0.3333, "all_scores":
+  {"medical_prescription": 0.0, "lab_report": 0.0, "legal_contract": 1.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-a66c0fa1b5dc8a9afb38cd9121f6c63d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

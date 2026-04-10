@@ -1,0 +1,16 @@
+execution_duration_ms: 28
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Priya Patel   Consulting Physician: Dr. R. Singh\nDate of Issue: 10/12/2024\n\nMedications
+  Prescribed:\n- Metoprolol 400mg: Take every 12 hours with food\n- Amoxicillin 400mg:
+  Take every 8 hours at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full
+  course.\nValid for 30 days. Refills allowed: 0"}'
+request_time: '2026-04-04T05:28:32.801Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.1875, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-e17ebe026b9f1d835c59b27ed210294f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,17 @@
+execution_duration_ms: 4889
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 10/12/2024    Accession:
+  LAB-5911\nPatient Name: David Lee    Physician: Dr. P. Mehta\n\nComplete Metabolic
+  Panel & CBC:\n  WBC                       11.7 %          LOW\n  Fasting Glucose           8.5
+  K/uL       HIGH\n  RBC                       3.1 %          HIGH\n  Cholesterol               13.1
+  %          HIGH\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:32:24.606Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7139, "all_scores": {"lab_report":
+  0.7139, "affidavit": 0.0769, "medical_prescription": 0.067, "invoice": 0.0536, "legal_contract":
+  0.0485, "unknown": 0.0402}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-b21b5c88b844d41912657561685d5c3f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

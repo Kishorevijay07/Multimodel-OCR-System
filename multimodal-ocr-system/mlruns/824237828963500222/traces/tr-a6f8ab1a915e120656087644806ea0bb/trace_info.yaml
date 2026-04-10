@@ -1,0 +1,18 @@
+execution_duration_ms: 8059
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-49213    Invoice Date:
+  22/09/2024\nFrom: LexCorp Legal Services\nBill To: XYZ Technology Solutions Pvt.
+  Ltd.\n\nITEMS:\n  Legal Advisory                      USD 3,724\n  IT Support                          USD
+  2,281\n  Consulting Services                 USD 2,997\n\n                               Subtotal:  USD
+  5,146\n                               Tax (18%): USD 926\n                               TOTAL
+  DUE: USD 6,072\n\nPayment Due Date: 30 days from invoice date.\nBank Transfer /
+  Cheque payable to LexCorp Legal Services."}'
+request_time: '2026-04-04T05:37:30.717Z'
+response_preview: '{"label": "invoice", "confidence": 0.8941, "all_scores": {"invoice":
+  0.8941, "legal_contract": 0.0353, "affidavit": 0.0322, "lab_report": 0.028, "medical_prescription":
+  0.0055, "unknown": 0.0049}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-a6f8ab1a915e120656087644806ea0bb
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

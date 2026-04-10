@@ -1,0 +1,14 @@
+execution_duration_ms: 15
+request_preview: '{"image": "[[189  77 190 ...  62   7   4]\n [108 160 120 ...  57
+  239 136]\n [ 15   8 225 ... 151  54 129]\n ...\n [120  46 158 ... 138  57  12]\n
+  [155 102  70 ... 186 204 121]\n [ 94 158  64 ...  92 190 120]]"}'
+request_time: '2026-04-03T15:40:37.457Z'
+response_preview: '"[[255   0 255 ...   0   0   0]\n [  0 255   0 ...   0 255 255]\n
+  [  0   0 255 ... 255   0 255]\n ...\n [  0   0 255 ... 255   0   0]\n [255   0   0
+  ... 255 255 255]\n [  0 255   0 ...   0 255   0]]"'
+state: OK
+trace_id: tr-4c8592338325bd9ebf98e734e2ed8686
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

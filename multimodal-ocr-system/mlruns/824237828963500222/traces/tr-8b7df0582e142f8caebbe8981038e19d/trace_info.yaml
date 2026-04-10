@@ -1,0 +1,17 @@
+execution_duration_ms: 4531
+request_preview: '{"text": "COMMERCIAL INVOICE — INV-39710\nSeller: XYZ Technology
+  Solutions Pvt. Ltd.\nBuyer:  GlobalTech Inc.\nDate:   01/03/2024\n\nDescription
+  of Services:\n  Medical Equipment                   USD 2,350\n  Consulting Services                 USD
+  3,651\n  Legal Advisory                      USD 1,420\n\nSub-Total: USD 47,949\nGST/Tax:   USD
+  4,795\nNet Payable: USD 52,744\n\nTerms: Net 30. Late payment subject to 2% monthly
+  interest.\nPlease reference invoice number in all correspondence."}'
+request_time: '2026-04-04T05:32:37.957Z'
+response_preview: '{"label": "invoice", "confidence": 0.9468, "all_scores": {"invoice":
+  0.9468, "legal_contract": 0.0191, "affidavit": 0.0149, "medical_prescription": 0.0084,
+  "lab_report": 0.0081, "unknown": 0.0028}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-8b7df0582e142f8caebbe8981038e19d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

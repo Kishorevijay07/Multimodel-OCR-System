@@ -1,0 +1,13 @@
+execution_duration_ms: 9
+request_preview: '{"text": "Patient: John Doe. Rx: Amoxicillin 500mg twice daily.
+  Dispense 14 capsules. Prescribed by Dr. Smith. Refills: 0."}'
+request_time: '2026-04-03T15:40:37.563Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.4375, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-586528e6afc5c20e4a636af5b6e1e7ac
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

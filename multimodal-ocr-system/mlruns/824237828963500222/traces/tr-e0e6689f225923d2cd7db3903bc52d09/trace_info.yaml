@@ -1,0 +1,15 @@
+execution_duration_ms: 2991
+request_preview: '{"text": "Rx\nPt: Priya Patel\nRx Date: 28/02/2025\nDr: Dr. R. Singh\n\nLisinopril
+  100mg — Sig: thrice daily x 10d — Qty: 20\nParacetamol 40mg — Sig: every 8 hours
+  x 10d — Qty: 10\n\nNo substitution. Patient counselled. Refills: 1."}'
+request_time: '2026-04-04T05:33:34.474Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.5026, "all_scores":
+  {"medical_prescription": 0.5026, "invoice": 0.1858, "affidavit": 0.139, "lab_report":
+  0.1251, "legal_contract": 0.0387, "unknown": 0.0087}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-e0e6689f225923d2cd7db3903bc52d09
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

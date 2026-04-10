@@ -1,0 +1,17 @@
+execution_duration_ms: 7349
+request_preview: '{"text": "Clinical Laboratory Services\nReport Date: 05/01/2025    Accession:
+  LAB-1781\nPatient Name: Michael Chen    Physician: Dr. P. Mehta\n\nComplete Metabolic
+  Panel & CBC:\n  WBC                       12.8 %          NORMAL\n  RBC                       8.4
+  M/uL       HIGH\n  Hemoglobin                7.3 mg/dL      HIGH\n  Cholesterol               7.1
+  %          NORMAL\n\nNote: Values outside reference range are flagged.\nInterpretation
+  should be done in clinical context."}'
+request_time: '2026-04-04T05:35:24.315Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7341, "all_scores": {"lab_report":
+  0.7341, "affidavit": 0.0662, "medical_prescription": 0.063, "invoice": 0.0524, "legal_contract":
+  0.051, "unknown": 0.0334}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-a0a5251303ff998b4e9c718791d94690
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,16 @@
+execution_duration_ms: 24
+request_preview: '{"text": "City General Hospital — Outpatient Prescription\nPatient:
+  Jane Smith   Consulting Physician: Dr. A. Kumar\nDate of Issue: 10/12/2024\n\nMedications
+  Prescribed:\n- Metoprolol 40mg: Take every 8 hours with food\n- Aspirin 500mg: Take
+  thrice daily at bedtime\n\nSpecial Instructions: Avoid alcohol. Complete full course.\nValid
+  for 30 days. Refills allowed: 0"}'
+request_time: '2026-04-04T05:28:35.438Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.1875, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-62385803149619747941e906d088edd9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

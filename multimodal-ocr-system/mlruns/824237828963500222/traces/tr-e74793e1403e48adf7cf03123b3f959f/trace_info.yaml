@@ -1,0 +1,18 @@
+execution_duration_ms: 4384
+request_preview: '{"text": "SWORN STATEMENT / AFFIDAVIT\nDate: 22/09/2024    Place:
+  Toronto\n\nI, David Lee, being duly sworn on oath, hereby declare that:\n- The information
+  provided herein is accurate and complete.\n- I have personal knowledge of the facts
+  set forth in this affidavit.\n- I make this declaration in support of pending legal
+  proceedings.\n\nI understand that false statements made herein are subject to legal
+  penalty.\n\nSigned: David Lee\nBefore me: _________________________ (Notary)"}'
+request_time: '2026-04-04T05:30:43.723Z'
+response_preview: '{"label": "affidavit", "confidence": 0.8775, "all_scores": {"affidavit":
+  0.8775, "legal_contract": 0.0343, "lab_report": 0.0311, "medical_prescription":
+  0.025, "unknown": 0.0199, "invoice": 0.0122}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-e74793e1403e48adf7cf03123b3f959f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

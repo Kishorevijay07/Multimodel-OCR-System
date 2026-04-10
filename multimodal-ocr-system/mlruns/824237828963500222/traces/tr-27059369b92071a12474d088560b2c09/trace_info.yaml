@@ -1,0 +1,17 @@
+execution_duration_ms: 33
+request_preview: '{"text": "COMMERCIAL INVOICE — INV-76736\nSeller: LexCorp Legal
+  Services\nBuyer:  Sunrise Pharmaceuticals\nDate:   28/02/2025\n\nDescription of
+  Services:\n  Medical Equipment                   USD 3,562\n  Office Supplies                     USD
+  4,804\n  IT Support                          USD 4,459\n\nSub-Total: USD 16,730\nGST/Tax:   USD
+  1,673\nNet Payable: USD 18,403\n\nTerms: Net 30. Late payment subject to 2% monthly
+  interest.\nPlease reference invoice number in all correspondence."}'
+request_time: '2026-04-04T05:28:20.885Z'
+response_preview: '{"label": "invoice", "confidence": 0.3333, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-27059369b92071a12474d088560b2c09
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,18 @@
+execution_duration_ms: 24
+request_preview: '{"context": null, "model_input": {"source": "b''%PDF-1.7\\r\\n%\\xb5\\xb5\\xb5\\xb5\\r\\n1
+  0 obj\\r\\n<</Type/Catalog/Pages 2 0 R/Lang(en) /StructTreeRoot 78 0 R/MarkInfo<</Marked
+  true>>/Metadata 1138 0 R/ViewerPreferences 1139 0 R>>\\r\\nendobj\\r\\n2 0 obj\\r\\n<</Type/Pages/Count
+  23/Kids[ 3 0 R 21 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46
+  0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R
+  75 0 R] >>\\r\\nendobj\\r\\n3 0 obj\\r\\n<</Type/Page/Parent 2 0 R/Resources<</Font<</F1
+  5 0 R/F2 12 0 R/F3 14 0 R/F4 19 0 R>>/ExtGState<</GS10 10 0 R/GS11 11 0 R>>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI]
+  >>/MediaBox[ 0 0 595.32 841.92] /Contents 4 0 R/Group<</Type/Group/S/Transparency/CS/DeviceRGB>>/Tabs/S/StructParents
+  0>>\\r\\nendobj\\r\\n4 0 obj\\r\\n<</Filter/FlateDecode/Length 5573>>\\r\\nstream\\r\\nx\\x9c\\xc5\\x9dY\\xab\\xe5Hr\\x80\\xdf\\x0b\\xea?\\x9c\\xc7\\x99\\x81R\\xe5\\xaa\\x05\\x8a\\x03u\\xb7a\\x8c\\xc7`\\xba\\x07?\\x18?4\\xc3t\\xe...'
+request_time: '2026-04-07T07:13:27.391Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-0503b51cae22fd454796fa6935c002cc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,16 @@
+execution_duration_ms: 5002
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: John
+  Doe    Sample ID: LAB-6711\nReferred By: Dr. R. Singh    Date: 22/09/2024\n\nTEST
+  RESULTS:\n  Bilirubin                 12.7 K/uL       HIGH\n  WBC                       13.3
+  mg/dL      CRITICAL\n  Creatinine                5.0 K/uL       LOW\n\nLaboratory
+  Director: Dr. Certified Pathologist\nReport verified and digitally signed."}'
+request_time: '2026-04-04T05:34:43.698Z'
+response_preview: '{"label": "lab_report", "confidence": 0.7706, "all_scores": {"lab_report":
+  0.7706, "affidavit": 0.0966, "legal_contract": 0.0468, "medical_prescription": 0.0362,
+  "invoice": 0.0298, "unknown": 0.0199}, "method": "zero_shot", "model_name": "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-4f190d930ea0daaee285781e2d6836c2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

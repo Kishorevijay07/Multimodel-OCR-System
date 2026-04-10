@@ -1,0 +1,1 @@
+{"entities": [{"label": "DOSAGE", "value": "bid", "start": 12, "end": 15, "confidence": 1.0, "source": "regex"}], "by_type": {"DOSAGE": ["bid"]}, "doc_type": "medical_prescription"}

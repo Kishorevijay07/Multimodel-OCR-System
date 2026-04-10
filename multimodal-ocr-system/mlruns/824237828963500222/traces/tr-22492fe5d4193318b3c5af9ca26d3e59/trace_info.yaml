@@ -1,0 +1,16 @@
+execution_duration_ms: 3196
+request_preview: '{"text": "MEDICAL PRESCRIPTION\nPatient Name: Jane Smith\nDate:
+  05/01/2025\nPrescribed by: Dr. James Carter\n\nRx:\n1. Ibuprofen 500mg — twice daily
+  for 14 days\n2. Paracetamol 400mg — thrice daily for 14 days\n\nDiagnosis: Acute
+  upper respiratory infection\nRefills: 2\nDispensed by licensed pharmacy only."}'
+request_time: '2026-04-04T05:38:56.894Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.8774, "all_scores":
+  {"medical_prescription": 0.8774, "affidavit": 0.0607, "invoice": 0.0252, "lab_report":
+  0.0183, "legal_contract": 0.0161, "unknown": 0.0023}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-22492fe5d4193318b3c5af9ca26d3e59
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,19 @@
+execution_duration_ms: 33
+request_preview: '{"text": "TAX INVOICE\nInvoice Number: INV-37030    Invoice Date:
+  05/01/2025\nFrom: XYZ Technology Solutions Pvt. Ltd.\nBill To: GlobalTech Inc.\n\nITEMS:\n  Consulting
+  Services                 USD 4,646\n  Software License                    USD 2,945\n  Legal
+  Advisory                      USD 3,478\n  Office Supplies                     USD
+  4,959\n\n                               Subtotal:  USD 10,545\n                               Tax
+  (5%): USD 527\n                               TOTAL DUE: USD 11,072\n\nPayment Due
+  Date: 30 days from invoice date.\nBank Transfer / Cheque payable to XYZ Technology
+  Solutions Pvt. Ltd.."}'
+request_time: '2026-04-04T05:28:18.848Z'
+response_preview: '{"label": "invoice", "confidence": 0.6667, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 1.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-3334b2f3107ca4a58f367610337f66a9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

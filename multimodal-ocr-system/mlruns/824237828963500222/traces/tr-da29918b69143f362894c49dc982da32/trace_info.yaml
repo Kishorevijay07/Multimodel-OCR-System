@@ -1,0 +1,15 @@
+execution_duration_ms: 2919
+request_preview: '{"text": "Rx\nPt: John Doe\nRx Date: 10/12/2024\nDr: Dr. James Carter\n\nAtorvastatin
+  40mg — Sig: as needed x 5d — Qty: 10\nAmoxicillin 400mg — Sig: as needed x 5d —
+  Qty: 5\n\nNo substitution. Patient counselled. Refills: 2."}'
+request_time: '2026-04-04T05:32:42.528Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.435, "all_scores":
+  {"medical_prescription": 0.435, "invoice": 0.2575, "affidavit": 0.1428, "lab_report":
+  0.1237, "legal_contract": 0.0279, "unknown": 0.013}, "method": "zero_shot", "model_name":
+  "facebook/bart-large-mnli"}'
+state: OK
+trace_id: tr-da29918b69143f362894c49dc982da32
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

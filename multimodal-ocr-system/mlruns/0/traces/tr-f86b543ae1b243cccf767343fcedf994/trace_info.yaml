@@ -1,0 +1,19 @@
+execution_duration_ms: 25
+request_preview: '{"context": null, "model_input": {"text": "Invoice total due USD
+  5000."}}'
+request_time: '2026-04-03T13:53:51.537Z'
+response_preview: '{"status": "success", "requires_human_review": true, "review_reasons":
+  ["low_classification_confidence"], "document": {"type": "invoice", "classification_confidence":
+  0.0833, "classification_method": "keyword", "classifier_model": "", "all_type_scores":
+  {"medical_prescription": 0.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 1.0, "unknown": 0.0}}, "ocr": {"engine_used": "none", "avg_confidence":
+  1.0, "pages_processed": 0, "extracted_text": "Invoice total due USD 5000.", "word_count":
+  5, "char_count": 27}, "entities": {"entity_count": 1, "entities_by_type": {"MONETARY_VALUE":
+  ["USD 5000"]}, "entities_list": [{"label": "MONETARY_VALUE", "value": "USD 5000",
+  "confidence": 1.0, "source": "regex"}]}, "performance": {"total_latency_ms": 17.0}}'
+state: OK
+trace_id: tr-f86b543ae1b243cccf767343fcedf994
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

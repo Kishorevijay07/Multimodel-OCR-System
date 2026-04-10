@@ -1,0 +1,17 @@
+execution_duration_ms: 30
+request_preview: '{"text": "PATHCARE DIAGNOSTICS — LABORATORY REPORT\nPatient: John
+  Doe    Sample ID: LAB-5622\nReferred By: Dr. A. Kumar    Date: 01/03/2024\n\nTEST
+  RESULTS:\n  RBC                       5.8 K/uL       NORMAL\n  Bilirubin                 8.9
+  M/uL       CRITICAL\n  Fasting Glucose           6.7 %          HIGH\n  Hemoglobin                8.6
+  g/dL       HIGH\n\nLaboratory Director: Dr. Certified Pathologist\nReport verified
+  and digitally signed."}'
+request_time: '2026-04-04T05:28:35.838Z'
+response_preview: '{"label": "lab_report", "confidence": 0.3125, "all_scores": {"medical_prescription":
+  0.0, "lab_report": 1.0, "legal_contract": 0.0, "affidavit": 0.0, "invoice": 0.0,
+  "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-c55d0bdafa9d007a1073c2e2937f4bb9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '824237828963500222'
+  type: MLFLOW_EXPERIMENT

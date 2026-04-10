@@ -1,0 +1,15 @@
+execution_duration_ms: 17
+request_preview: '{"text": "Rx\nPt: Michael Chen\nRx Date: 15/06/2024\nDr: Dr. A.
+  Kumar\n\nWarfarin 100mg — Sig: every 8 hours x 5d — Qty: 10\nAmoxicillin 40mg —
+  Sig: every 12 hours x 5d — Qty: 5\n\nNo substitution. Patient counselled. Refills:
+  0."}'
+request_time: '2026-04-03T13:53:55.087Z'
+response_preview: '{"label": "medical_prescription", "confidence": 0.25, "all_scores":
+  {"medical_prescription": 1.0, "lab_report": 0.0, "legal_contract": 0.0, "affidavit":
+  0.0, "invoice": 0.0, "unknown": 0.0}, "method": "keyword", "model_name": ""}'
+state: OK
+trace_id: tr-1ce978717cf59d5feb9f33cb7bab1baa
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

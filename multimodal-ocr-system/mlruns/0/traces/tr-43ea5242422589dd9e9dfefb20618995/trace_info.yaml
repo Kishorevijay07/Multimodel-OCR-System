@@ -1,0 +1,27 @@
+execution_duration_ms: 9210
+request_preview: '{"context": null, "model_input": {"source": "b''\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x03
+  \\x00\\x00\\x03\\xe8\\x08\\x02\\x00\\x00\\x00\\xa9\\xa9\\r\\xe6\\x00\\x00y\\xfdIDATx\\x9c\\xed\\xfdy|T\\xe5\\x1d\\xf7\\xff\\x9f\\x10`2AH\\x94\\x1d\\x81VP\\xd1\\x10\\x08IP\\x93Lf\\xcbn\\x90M+\\x16\\x08\\x12@Z\\xeaC\\xa9(\\x0c\\xb5
+  \\xe8mK\\x04\\x11-\\x94\\x1bE\\x0c\\x8b`\\x11#\\x01\\xd9BX\\x83\\x84%\\xa1\\x88`\\x80JXb\\xd8-f!\\x84,\\x93\\\\\\xbf\\x87\\x9e\\xbb\\xe77\\xdf\\x99\\xc9\\x10\\xe0\\xc2
+  \\xbe\\x9e\\x7f\\x9d\\xb9\\xceu\\xae\\xebs]\\x93>\\xf2\\xee9\\''\\xe8%\\x84P\\x00\\x00\\x00
+  O#\\x89c\\x01\\x00\\x00\\x80\\x80\\x05\\x00\\x00 \\x1fw\\xb0\\x00\\x00\\x00$#`\\x01\\x00\\x00HF\\xc0\\x02\\x00\\x00\\x90\\x8c\\x80\\x05\\x00\\x00
+  \\x19\\x01\\x0b\\x00\\x00@2\\x02\\x16\\x00\\x00\\x80d\\x04,\\x00\\x00\\x00\\xc9\\x08X\\x00\\x00\\x00\\x92\\x11\\xb0\\x00\\x00\\x00$#`\\x01\\x00\\x00HF\\xc0\\x02\\x00\\x00\\x90\\x8c\\x80\\x05\\x00\\x00
+  \\x19\\x01\\x0b\\x00\\x00@2\\x02\\x16\\x00\\x00\\x80d\...'
+request_time: '2026-04-07T07:24:46.600Z'
+response_preview: '{"status": "success", "requires_human_review": false, "review_reasons":
+  [], "document": {"type": "lab_report", "classification_confidence": 0.805, "classification_method":
+  "finetuned_bert", "classifier_model": "models/bert_classifier\\checkpoint-120",
+  "all_type_scores": {"medical_prescription": 0.0775, "lab_report": 0.805, "legal_contract":
+  0.0355, "affidavit": 0.0159, "invoice": 0.0334, "unknown": 0.0326}}, "ocr": {"engine_used":
+  "easyocr", "avg_confidence": 0.6609, "pages_processed": 1, "extracted_text": "PATHCRRE
+  DIPGNOSTICB LAB LABORRTORY TEST REFORT Fatient Jane Smith Pge: 38 Years Eampla ID
+  LAB2024-00421 Date: 5,03/2024 Reterred By: Dr: Ku Mar COMPLETE BLCODCOUNT (CECI
+  Test Result Reterenca Status Hemoglobin 11.2g/L 120-18.0g L LOW WBC 7.5 Ktu L 45-11.0
+  Ku L NORMRL REC 3.9 Mfu L 3.95.2 Mu L NORMRL Platelet 180 KYu L 150-400 Ktu L NORMRL
+  BLCODGLUCOSE Fasting Gluccke: 108 INor Mal BORDERLINE Hba Ic (Normal < 5,7 % ELEVRTED
+  Comments Fatientshows borderline fasting glucrke Follow-...'
+state: OK
+trace_id: tr-43ea5242422589dd9e9dfefb20618995
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT
